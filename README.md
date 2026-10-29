@@ -26,7 +26,19 @@ If the SQL was already run by hand in the SQL editor, mark the migrations as app
 npx supabase@2.20.12 migration repair --status applied 20261030000000 20261030000100 20261030000200
 ```
 
-Then run `supabase/checks/verify_schema.sql` in the SQL editor; every row should show `ok = true`.
+### Check a database
+
+`supabase/checks/verify_all.sql` checks a database against this repo in one query. Paste the whole file into the SQL editor and run it; every row should say PASS. It covers:
+
+- **Structure:** each table's columns, constraints, indexes, RLS switch and policies, plus enums, functions, triggers, the storage bucket and its policy.
+- **Seed data:** a fingerprint of every seed table's content.
+- **Behaviour:** the sign-up trigger, recipe ranking, the allergen filter and RLS isolation between two users. These run inside a sub-transaction that is always rolled back, so nothing is left behind.
+
+After changing a migration or the seed data, regenerate the expected values (needs a local Postgres):
+
+```bash
+PGHOST=localhost PGUSER=postgres python3 scripts/build_verify_sql.py
+```
 
 ### Seed data
 
