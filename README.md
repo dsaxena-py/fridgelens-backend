@@ -28,6 +28,22 @@ npx supabase@2.20.12 migration repair --status applied 20261030000000 2026103000
 
 Then run `supabase/checks/verify_schema.sql` in the SQL editor; every row should show `ok = true`.
 
+### Seed data
+
+The ingredient catalog and the 120 recipes are written by hand in `seed_data/` (YAML). `scripts/build_seed.py` validates them and generates `supabase/seed/*.sql`:
+
+```bash
+pip install pyyaml
+python3 scripts/build_seed.py          # validate and regenerate the SQL
+python3 scripts/build_seed.py --check  # validate only
+```
+
+The script converts every quantity to grams, sets ingredient weights by role (core 1.0, supporting 0.5, garnish 0.2) and derives dietary tags from the ingredients. It fails if any recipe uses fewer than 2 detectable ingredients, or if any detector class appears in fewer than 8 recipes. Edit the YAML, never the generated SQL.
+
+To load the seeds into the hosted project, run `supabase/seed/01_ingredients.sql` and then `supabase/seed/02_recipes.sql` in the SQL editor. Both are safe to re-run. `supabase db reset` loads them automatically in local development.
+
+Nutrition values are approximations of USDA FoodData Central SR Legacy entries and are labelled as such in `ingredient_nutrition.source` until they are checked against FDC.
+
 ### Test locally
 
 With any local Postgres 15+ (no Supabase needed):
@@ -36,7 +52,7 @@ With any local Postgres 15+ (no Supabase needed):
 PGHOST=localhost PGUSER=postgres scripts/test_schema.sh
 ```
 
-This applies the migrations to a throwaway database, using stand-ins for Supabase's `auth` and `storage` schemas, then runs `supabase/tests/smoke.sql`. The last two statements of the smoke test are meant to fail with CHECK-constraint errors.
+This applies the migrations to a throwaway database, using stand-ins for Supabase's `auth` and `storage` schemas, then runs `supabase/tests/smoke.sql`. The last two statements of the smoke test are meant to fail with CHECK-constraint errors. It then loads the seed data into a second database and prints the row counts.
 
 ## Configuration
 
