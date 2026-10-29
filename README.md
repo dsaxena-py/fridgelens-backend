@@ -42,7 +42,12 @@ The script converts every quantity to grams, sets ingredient weights by role (co
 
 To load the seeds into the hosted project, run `supabase/seed/01_ingredients.sql` and then `supabase/seed/02_recipes.sql` in the SQL editor. Both are safe to re-run. `supabase db reset` loads them automatically in local development.
 
-Nutrition values are approximations of USDA FoodData Central SR Legacy entries and are labelled as such in `ingredient_nutrition.source` until they are checked against FDC.
+Nutrition values come from USDA FoodData Central SR Legacy. Each ingredient in `seed_data/ingredients.yaml` names its `fdc_id`; to refresh the values, get a free key at https://fdc.nal.usda.gov/api-key-signup and run:
+
+```bash
+FDC_API_KEY=... python3 scripts/fetch_usda_nutrition.py   # add --dry-run to preview changes
+python3 scripts/build_seed.py
+```
 
 ### Test locally
 

@@ -1,8 +1,8 @@
 # MealLens ingredient catalog.
 #
-# nutrition: [kcal, protein_g, carbs_g, fat_g, fiber_g] per 100 g edible portion.
-#   Values are approximations of USDA FoodData Central SR Legacy entries and still
-#   need checking against FDC; until then `source` is marked "approximate".
+# fdc_id: USDA FoodData Central SR Legacy entry the nutrition comes from.
+# nutrition: [kcal, protein_g, carbs_g, fat_g, fiber_g] per 100 g, fetched from FDC by
+#   scripts/fetch_usda_nutrition.py. Do not edit by hand; change fdc_id and re-run it.
 # class: YOLO class index (detectable ingredients only).
 # unit / grams_per_unit: default display unit and its mass (piece, clove, slice).
 # density: g per ml, used to convert tsp / tbsp / cup / ml in recipes to grams.
@@ -11,147 +11,147 @@
 # shelf_life: approximate fridge shelf life in days.
 
 # ---------- Detectable (the 25 YOLO classes) ----------
-- {slug: apple, name: Apple, category: produce, class: 0, unit: piece, grams_per_unit: 182, shelf_life: 30,
+- {slug: apple, fdc_id: 171688, name: Apple, category: produce, class: 0, unit: piece, grams_per_unit: 182, shelf_life: 30,
    aliases: [red apple, green apple, apples], nutrition: [52, 0.3, 13.8, 0.2, 2.4]}
-- {slug: banana, name: Banana, category: produce, class: 1, unit: piece, grams_per_unit: 118, shelf_life: 7,
+- {slug: banana, fdc_id: 173944, name: Banana, category: produce, class: 1, unit: piece, grams_per_unit: 118, shelf_life: 7,
    aliases: [bananas], nutrition: [89, 1.1, 22.8, 0.3, 2.6]}
-- {slug: orange, name: Orange, category: produce, class: 2, unit: piece, grams_per_unit: 131, shelf_life: 21,
+- {slug: orange, fdc_id: 169097, name: Orange, category: produce, class: 2, unit: piece, grams_per_unit: 131, shelf_life: 21,
    aliases: [navel orange, mandarin, oranges], nutrition: [47, 0.9, 11.8, 0.1, 2.4]}
-- {slug: lemon, name: Lemon or lime, category: produce, class: 3, unit: piece, grams_per_unit: 84, density: 1.03, shelf_life: 21,
+- {slug: lemon, fdc_id: 167746, name: Lemon or lime, category: produce, class: 3, unit: piece, grams_per_unit: 84, density: 1.03, shelf_life: 21,
    aliases: [lime, lemons, limes, lemon juice, lime juice], nutrition: [29, 1.1, 9.3, 0.3, 2.8]}
-- {slug: strawberry, name: Strawberries, category: produce, class: 4, unit: g, density: 0.7, shelf_life: 5,
-   aliases: [strawberries], nutrition: [32, 0.7, 7.7, 0.3, 2.0]}
-- {slug: tomato, name: Tomato, category: produce, class: 5, unit: piece, grams_per_unit: 123, density: 0.75, shelf_life: 7,
+- {slug: strawberry, fdc_id: 167762, name: Strawberries, category: produce, class: 4, unit: g, density: 0.7, shelf_life: 5,
+   aliases: [strawberries], nutrition: [32, 0.7, 7.7, 0.3, 2]}
+- {slug: tomato, fdc_id: 170457, name: Tomato, category: produce, class: 5, unit: piece, grams_per_unit: 123, density: 0.75, shelf_life: 7,
    aliases: [cherry tomato, roma tomato, tomatoes], nutrition: [18, 0.9, 3.9, 0.2, 1.2]}
-- {slug: potato, name: Potato, category: produce, class: 6, unit: piece, grams_per_unit: 213, shelf_life: 30,
-   aliases: [russet potato, potatoes], nutrition: [77, 2.0, 17.5, 0.1, 2.1]}
-- {slug: onion, name: Onion, category: produce, class: 7, unit: piece, grams_per_unit: 110, shelf_life: 30,
+- {slug: potato, fdc_id: 170026, name: Potato, category: produce, class: 6, unit: piece, grams_per_unit: 213, shelf_life: 30,
+   aliases: [russet potato, potatoes], nutrition: [77, 2, 17.5, 0.1, 2.1]}
+- {slug: onion, fdc_id: 170000, name: Onion, category: produce, class: 7, unit: piece, grams_per_unit: 110, shelf_life: 30,
    aliases: [red onion, yellow onion, white onion, onions], nutrition: [40, 1.1, 9.3, 0.1, 1.7]}
-- {slug: garlic, name: Garlic, category: produce, class: 8, unit: clove, grams_per_unit: 5, shelf_life: 30,
+- {slug: garlic, fdc_id: 169230, name: Garlic, category: produce, class: 8, unit: clove, grams_per_unit: 5, shelf_life: 30,
    aliases: [garlic bulb, garlic clove], nutrition: [149, 6.4, 33.1, 0.5, 2.1]}
-- {slug: carrot, name: Carrot, category: produce, class: 9, unit: piece, grams_per_unit: 61, density: 0.55, shelf_life: 21,
+- {slug: carrot, fdc_id: 170393, name: Carrot, category: produce, class: 9, unit: piece, grams_per_unit: 61, density: 0.55, shelf_life: 21,
    aliases: [baby carrot, carrots], nutrition: [41, 0.9, 9.6, 0.2, 2.8]}
-- {slug: cucumber, name: Cucumber, category: produce, class: 10, unit: piece, grams_per_unit: 301, shelf_life: 7,
+- {slug: cucumber, fdc_id: 168409, name: Cucumber, category: produce, class: 10, unit: piece, grams_per_unit: 301, shelf_life: 7,
    aliases: [cucumbers], nutrition: [15, 0.7, 3.6, 0.1, 0.5]}
-- {slug: bell_pepper, name: Bell pepper, category: produce, class: 11, unit: piece, grams_per_unit: 119, shelf_life: 10,
-   aliases: [red pepper, green pepper, yellow pepper, capsicum, bell peppers], nutrition: [31, 1.0, 6.0, 0.3, 2.1]}
-- {slug: broccoli, name: Broccoli, category: produce, class: 12, unit: g, density: 0.38, shelf_life: 5,
+- {slug: bell_pepper, fdc_id: 170108, name: Bell pepper, category: produce, class: 11, unit: piece, grams_per_unit: 119, shelf_life: 10,
+   aliases: [red pepper, green pepper, yellow pepper, capsicum, bell peppers], nutrition: [26, 1, 6, 0.3, 2.1]}
+- {slug: broccoli, fdc_id: 170379, name: Broccoli, category: produce, class: 12, unit: g, density: 0.38, shelf_life: 5,
    aliases: [broccoli florets], nutrition: [34, 2.8, 6.6, 0.4, 2.6]}
-- {slug: cauliflower, name: Cauliflower, category: produce, class: 13, unit: g, density: 0.45, shelf_life: 7,
-   aliases: [cauliflower florets], nutrition: [25, 1.9, 5.0, 0.3, 2.0]}
-- {slug: cabbage, name: Cabbage, category: produce, class: 14, unit: g, density: 0.38, shelf_life: 30,
+- {slug: cauliflower, fdc_id: 169986, name: Cauliflower, category: produce, class: 13, unit: g, density: 0.45, shelf_life: 7,
+   aliases: [cauliflower florets], nutrition: [25, 1.9, 5, 0.3, 2]}
+- {slug: cabbage, fdc_id: 169975, name: Cabbage, category: produce, class: 14, unit: g, density: 0.38, shelf_life: 30,
    aliases: [red cabbage, green cabbage], nutrition: [25, 1.3, 5.8, 0.1, 2.5]}
-- {slug: leafy_greens, name: Leafy greens, category: produce, class: 15, unit: g, density: 0.13, shelf_life: 5,
+- {slug: leafy_greens, fdc_id: 168462, name: Leafy greens, category: produce, class: 15, unit: g, density: 0.13, shelf_life: 5,
    aliases: [lettuce, spinach, kale, salad greens, romaine], nutrition: [23, 2.9, 3.6, 0.4, 2.2]}
-- {slug: mushroom, name: Mushrooms, category: produce, class: 16, unit: g, density: 0.29, shelf_life: 7,
-   aliases: [button mushroom, mushrooms, cremini], nutrition: [22, 3.1, 3.3, 0.3, 1.0]}
-- {slug: eggplant, name: Eggplant, category: produce, class: 17, unit: piece, grams_per_unit: 458, shelf_life: 7,
-   aliases: [aubergine, eggplants], nutrition: [25, 1.0, 5.9, 0.2, 3.0]}
-- {slug: egg, name: Egg, category: protein, class: 18, unit: piece, grams_per_unit: 50, shelf_life: 35, allergens: [egg],
+- {slug: mushroom, fdc_id: 169251, name: Mushrooms, category: produce, class: 16, unit: g, density: 0.29, shelf_life: 7,
+   aliases: [button mushroom, mushrooms, cremini], nutrition: [22, 3.1, 3.3, 0.3, 1]}
+- {slug: eggplant, fdc_id: 169228, name: Eggplant, category: produce, class: 17, unit: piece, grams_per_unit: 458, shelf_life: 7,
+   aliases: [aubergine, eggplants], nutrition: [25, 1, 5.9, 0.2, 3]}
+- {slug: egg, fdc_id: 171287, name: Egg, category: protein, class: 18, unit: piece, grams_per_unit: 50, shelf_life: 35, allergens: [egg],
    aliases: [eggs], nutrition: [143, 12.6, 0.7, 9.5, 0]}
-- {slug: milk, name: Milk, category: dairy, class: 19, unit: ml, grams_per_unit: 1.03, density: 1.03, shelf_life: 7, allergens: [milk],
-   aliases: [whole milk, skim milk], nutrition: [61, 3.2, 4.8, 3.3, 0]}
-- {slug: cheese, name: Cheese, category: dairy, class: 20, unit: g, density: 0.47, shelf_life: 21, allergens: [milk],
-   aliases: [cheddar, mozzarella, cheddar cheese], nutrition: [403, 24.9, 1.3, 33.1, 0]}
-- {slug: yogurt, name: Yogurt, category: dairy, class: 21, unit: g, density: 1.03, shelf_life: 14, allergens: [milk],
-   aliases: [greek yogurt, plain yogurt], nutrition: [61, 3.5, 4.7, 3.3, 0]}
-- {slug: butter, name: Butter, category: dairy, class: 22, unit: g, density: 0.96, shelf_life: 60, allergens: [milk],
-   aliases: [], nutrition: [717, 0.9, 0.1, 81.1, 0]}
-- {slug: chicken, name: Chicken, category: protein, class: 23, unit: g, shelf_life: 2, diet: meat,
+- {slug: milk, fdc_id: 171265, name: Milk, category: dairy, class: 19, unit: ml, grams_per_unit: 1.03, density: 1.03, shelf_life: 7, allergens: [milk],
+   aliases: [whole milk, skim milk], nutrition: [61, 3.1, 4.8, 3.2, 0]}
+- {slug: cheese, fdc_id: 173414, name: Cheese, category: dairy, class: 20, unit: g, density: 0.47, shelf_life: 21, allergens: [milk],
+   aliases: [cheddar, mozzarella, cheddar cheese], nutrition: [403, 22.9, 3.4, 33.3, 0]}
+- {slug: yogurt, fdc_id: 171284, name: Yogurt, category: dairy, class: 21, unit: g, density: 1.03, shelf_life: 14, allergens: [milk],
+   aliases: [greek yogurt, plain yogurt], nutrition: [61, 3.5, 4.7, 3.2, 0]}
+- {slug: butter, fdc_id: 173410, name: Butter, category: dairy, class: 22, unit: g, density: 0.96, shelf_life: 60, allergens: [milk],
+   aliases: [], nutrition: [717, 0.8, 0.1, 81.1, 0]}
+- {slug: chicken, fdc_id: 171077, name: Chicken, category: protein, class: 23, unit: g, shelf_life: 2, diet: meat,
    aliases: [chicken breast, chicken thigh], nutrition: [120, 22.5, 0, 2.6, 0]}
-- {slug: bread, name: Bread, category: bakery, class: 24, unit: slice, grams_per_unit: 28, shelf_life: 7, allergens: [gluten],
-   aliases: [sandwich bread, loaf, bread slice], nutrition: [266, 7.6, 50.6, 3.3, 2.4]}
+- {slug: bread, fdc_id: 174924, name: Bread, category: bakery, class: 24, unit: slice, grams_per_unit: 28, shelf_life: 7, allergens: [gluten],
+   aliases: [sandwich bread, loaf, bread slice], nutrition: [266, 8.8, 49.4, 3.3, 2.7]}
 
 # ---------- Pantry staples (never counted as missing by default) ----------
-- {slug: salt, name: Salt, category: spice, staple: true, unit: g, density: 1.2, nutrition: [0, 0, 0, 0, 0]}
-- {slug: black_pepper, name: Black pepper, category: spice, staple: true, unit: g, density: 0.46,
-   aliases: [pepper], nutrition: [251, 10.4, 64.0, 3.3, 25.3]}
-- {slug: cooking_oil, name: Cooking oil, category: pantry, staple: true, unit: ml, grams_per_unit: 0.92, density: 0.92,
+- {slug: salt, fdc_id: 173468, name: Salt, category: spice, staple: true, unit: g, density: 1.2, nutrition: [0, 0, 0, 0, 0]}
+- {slug: black_pepper, fdc_id: 170931, name: Black pepper, category: spice, staple: true, unit: g, density: 0.46,
+   aliases: [pepper], nutrition: [251, 10.4, 64, 3.3, 25.3]}
+- {slug: cooking_oil, fdc_id: 172336, name: Cooking oil, category: pantry, staple: true, unit: ml, grams_per_unit: 0.92, density: 0.92,
    aliases: [vegetable oil, canola oil, oil], nutrition: [884, 0, 0, 100, 0]}
-- {slug: olive_oil, name: Olive oil, category: pantry, staple: true, unit: ml, grams_per_unit: 0.92, density: 0.92,
+- {slug: olive_oil, fdc_id: 171413, name: Olive oil, category: pantry, staple: true, unit: ml, grams_per_unit: 0.92, density: 0.92,
    aliases: [extra virgin olive oil], nutrition: [884, 0, 0, 100, 0]}
-- {slug: sugar, name: Sugar, category: pantry, staple: true, unit: g, density: 0.85,
+- {slug: sugar, fdc_id: 169655, name: Sugar, category: pantry, staple: true, unit: g, density: 0.85,
    aliases: [white sugar, brown sugar], nutrition: [387, 0, 100, 0, 0]}
-- {slug: flour, name: All-purpose flour, category: grain, staple: true, unit: g, density: 0.53, allergens: [gluten],
-   aliases: [plain flour, all purpose flour], nutrition: [364, 10.3, 76.3, 1.0, 2.7]}
-- {slug: vinegar, name: Vinegar, category: condiment, staple: true, unit: ml, grams_per_unit: 1.0, density: 1.0,
-   aliases: [white vinegar, apple cider vinegar, rice vinegar], nutrition: [18, 0, 0.1, 0, 0]}
-- {slug: baking_powder, name: Baking powder, category: pantry, staple: true, unit: g, density: 0.92, nutrition: [53, 0, 27.7, 0, 0.2]}
-- {slug: dried_oregano, name: Dried oregano, category: spice, staple: true, unit: g, density: 0.2,
-   aliases: [oregano, italian seasoning, dried herbs], nutrition: [265, 9.0, 68.9, 4.3, 42.5]}
-- {slug: chili_flakes, name: Chili flakes, category: spice, staple: true, unit: g, density: 0.36,
-   aliases: [red pepper flakes, chili powder, cayenne], nutrition: [318, 12.0, 56.6, 17.3, 27.2]}
-- {slug: cumin, name: Ground cumin, category: spice, staple: true, unit: g, density: 0.42, nutrition: [375, 17.8, 44.2, 22.3, 10.5]}
-- {slug: paprika, name: Paprika, category: spice, staple: true, unit: g, density: 0.46,
-   aliases: [smoked paprika], nutrition: [282, 14.1, 54.0, 12.9, 34.9]}
-- {slug: cinnamon, name: Ground cinnamon, category: spice, staple: true, unit: g, density: 0.52, nutrition: [247, 4.0, 80.6, 1.2, 53.1]}
+- {slug: flour, fdc_id: 168894, name: All-purpose flour, category: grain, staple: true, unit: g, density: 0.53, allergens: [gluten],
+   aliases: [plain flour, all purpose flour], nutrition: [364, 10.3, 76.3, 1, 2.7]}
+- {slug: vinegar, fdc_id: 172237, name: Vinegar, category: condiment, staple: true, unit: ml, grams_per_unit: 1.0, density: 1.0,
+   aliases: [white vinegar, apple cider vinegar, rice vinegar], nutrition: [18, 0, 0, 0, 0]}
+- {slug: baking_powder, fdc_id: 172803, name: Baking powder, category: pantry, staple: true, unit: g, density: 0.92, nutrition: [53, 0, 27.7, 0, 0.2]}
+- {slug: dried_oregano, fdc_id: 171328, name: Dried oregano, category: spice, staple: true, unit: g, density: 0.2,
+   aliases: [oregano, italian seasoning, dried herbs], nutrition: [265, 9, 68.9, 4.3, 42.5]}
+- {slug: chili_flakes, fdc_id: 170932, name: Chili flakes, category: spice, staple: true, unit: g, density: 0.36,
+   aliases: [red pepper flakes, chili powder, cayenne], nutrition: [318, 12, 56.6, 17.3, 27.2]}
+- {slug: cumin, fdc_id: 170923, name: Ground cumin, category: spice, staple: true, unit: g, density: 0.42, nutrition: [375, 17.8, 44.2, 22.3, 10.5]}
+- {slug: paprika, fdc_id: 171329, name: Paprika, category: spice, staple: true, unit: g, density: 0.46,
+   aliases: [smoked paprika], nutrition: [282, 14.1, 54, 12.9, 34.9]}
+- {slug: cinnamon, fdc_id: 171320, name: Ground cinnamon, category: spice, staple: true, unit: g, density: 0.52, nutrition: [247, 4, 80.6, 1.2, 53.1]}
 
 # ---------- Other ingredients (added by hand, counted in scoring) ----------
-- {slug: rice, name: Rice, category: grain, unit: g, density: 0.78, aliases: [white rice, basmati rice, jasmine rice],
-   nutrition: [365, 7.1, 80.0, 0.7, 1.3]}
-- {slug: pasta, name: Pasta, category: grain, unit: g, allergens: [gluten], aliases: [spaghetti, penne, macaroni],
-   nutrition: [371, 13.0, 74.7, 1.5, 3.2]}
-- {slug: egg_noodles, name: Egg noodles, category: grain, unit: g, allergens: [gluten, egg], aliases: [noodles, ramen noodles],
+- {slug: rice, fdc_id: 168877, name: Rice, category: grain, unit: g, density: 0.78, aliases: [white rice, basmati rice, jasmine rice],
+   nutrition: [365, 7.1, 80, 0.7, 1.3]}
+- {slug: pasta, fdc_id: 169736, name: Pasta, category: grain, unit: g, allergens: [gluten], aliases: [spaghetti, penne, macaroni],
+   nutrition: [371, 13, 74.7, 1.5, 3.2]}
+- {slug: egg_noodles, fdc_id: 169731, name: Egg noodles, category: grain, unit: g, allergens: [gluten, egg], aliases: [noodles, ramen noodles],
    nutrition: [384, 14.2, 71.3, 4.4, 3.3]}
-- {slug: oats, name: Rolled oats, category: grain, unit: g, density: 0.34, aliases: [oatmeal, porridge oats],
-   nutrition: [389, 16.9, 66.3, 6.9, 10.6]}
-- {slug: quinoa, name: Quinoa, category: grain, unit: g, density: 0.72, nutrition: [368, 14.1, 64.2, 6.1, 7.0]}
-- {slug: lentils, name: Lentils, category: grain, unit: g, density: 0.8, aliases: [red lentils], nutrition: [352, 24.6, 63.4, 1.1, 10.7]}
-- {slug: tortilla, name: Tortilla, category: bakery, unit: piece, grams_per_unit: 45, shelf_life: 14, allergens: [gluten],
-   aliases: [flour tortilla, wrap], nutrition: [312, 8.3, 51.6, 8.0, 3.5]}
-- {slug: breadcrumbs, name: Breadcrumbs, category: bakery, unit: g, density: 0.45, allergens: [gluten], aliases: [panko],
-   nutrition: [395, 13.4, 72.0, 5.3, 4.5]}
-- {slug: canned_tomatoes, name: Canned tomatoes, category: pantry, unit: g, density: 1.0,
+- {slug: oats, fdc_id: 173904, name: Rolled oats, category: grain, unit: g, density: 0.34, aliases: [oatmeal, porridge oats],
+   nutrition: [379, 13.2, 67.7, 6.5, 10.1]}
+- {slug: quinoa, fdc_id: 168874, name: Quinoa, category: grain, unit: g, density: 0.72, nutrition: [368, 14.1, 64.2, 6.1, 7]}
+- {slug: lentils, fdc_id: 172420, name: Lentils, category: grain, unit: g, density: 0.8, aliases: [red lentils], nutrition: [352, 24.6, 63.4, 1.1, 10.7]}
+- {slug: tortilla, fdc_id: 175037, name: Tortilla, category: bakery, unit: piece, grams_per_unit: 45, shelf_life: 14, allergens: [gluten],
+   aliases: [flour tortilla, wrap], nutrition: [306, 8.2, 49.4, 8, 3.5]}
+- {slug: breadcrumbs, fdc_id: 174928, name: Breadcrumbs, category: bakery, unit: g, density: 0.45, allergens: [gluten], aliases: [panko],
+   nutrition: [395, 13.3, 72, 5.3, 4.5]}
+- {slug: canned_tomatoes, fdc_id: 170501, name: Canned tomatoes, category: pantry, unit: g, density: 1.0,
    aliases: [crushed tomatoes, diced tomatoes, tomato sauce], nutrition: [32, 1.6, 7.3, 0.3, 1.9]}
-- {slug: canned_black_beans, name: Black beans (canned), category: pantry, unit: g, density: 0.75,
-   aliases: [black beans, kidney beans, beans], nutrition: [91, 6.0, 16.5, 0.3, 6.9]}
-- {slug: canned_chickpeas, name: Chickpeas (canned), category: pantry, unit: g, density: 0.7,
-   aliases: [chickpeas, garbanzo beans], nutrition: [139, 7.0, 22.5, 2.6, 6.4]}
-- {slug: coconut_milk, name: Coconut milk, category: pantry, unit: ml, grams_per_unit: 0.95, density: 0.95,
-   nutrition: [197, 2.0, 2.8, 21.3, 0]}
-- {slug: chicken_broth, name: Chicken broth, category: pantry, unit: ml, grams_per_unit: 1.0, density: 1.0, diet: meat,
+- {slug: canned_black_beans, fdc_id: 175188, name: Black beans (canned), category: pantry, unit: g, density: 0.75,
+   aliases: [black beans, kidney beans, beans], nutrition: [91, 6, 16.6, 0.3, 6.9]}
+- {slug: canned_chickpeas, fdc_id: 173800, name: Chickpeas (canned), category: pantry, unit: g, density: 0.7,
+   aliases: [chickpeas, garbanzo beans], nutrition: [139, 7, 22.5, 2.8, 6.4]}
+- {slug: coconut_milk, fdc_id: 170173, name: Coconut milk, category: pantry, unit: ml, grams_per_unit: 0.95, density: 0.95,
+   nutrition: [197, 2, 2.8, 21.3, 0]}
+- {slug: chicken_broth, fdc_id: 174536, name: Chicken broth, category: pantry, unit: ml, grams_per_unit: 1.0, density: 1.0, diet: meat,
    aliases: [chicken stock], nutrition: [6, 0.6, 0.4, 0.2, 0]}
-- {slug: tuna_canned, name: Tuna (canned), category: protein, unit: g, diet: fish, allergens: [fish], aliases: [tuna],
-   nutrition: [116, 25.5, 0, 0.8, 0]}
-- {slug: ground_beef, name: Ground beef, category: protein, unit: g, shelf_life: 2, diet: meat, aliases: [minced beef, beef mince],
-   nutrition: [215, 18.6, 0, 15.0, 0]}
-- {slug: bacon, name: Bacon, category: protein, unit: slice, grams_per_unit: 25, shelf_life: 7, diet: meat,
-   nutrition: [417, 13.0, 1.4, 40.0, 0]}
-- {slug: ham, name: Ham, category: protein, unit: slice, grams_per_unit: 28, shelf_life: 5, diet: meat, aliases: [deli ham],
-   nutrition: [145, 20.9, 1.5, 6.0, 0]}
-- {slug: tofu, name: Tofu, category: protein, unit: g, shelf_life: 7, allergens: [soy], aliases: [firm tofu],
+- {slug: tuna_canned, fdc_id: 173709, name: Tuna (canned), category: protein, unit: g, diet: fish, allergens: [fish], aliases: [tuna],
+   nutrition: [86, 19.4, 0, 1, 0]}
+- {slug: ground_beef, fdc_id: 171796, name: Ground beef, category: protein, unit: g, shelf_life: 2, diet: meat, aliases: [minced beef, beef mince],
+   nutrition: [215, 18.6, 0, 15, 0]}
+- {slug: bacon, fdc_id: 168277, name: Bacon, category: protein, unit: slice, grams_per_unit: 25, shelf_life: 7, diet: meat,
+   nutrition: [393, 13.7, 0, 37.1, 0]}
+- {slug: ham, fdc_id: 173864, name: Ham, category: protein, unit: slice, grams_per_unit: 28, shelf_life: 5, diet: meat, aliases: [deli ham],
+   nutrition: [164, 16.6, 3.6, 8.8, 1.3]}
+- {slug: tofu, fdc_id: 172475, name: Tofu, category: protein, unit: g, shelf_life: 7, allergens: [soy], aliases: [firm tofu],
    nutrition: [144, 17.3, 2.8, 8.7, 2.3]}
-- {slug: parmesan, name: Parmesan, category: dairy, unit: g, density: 0.35, shelf_life: 60, allergens: [milk],
-   aliases: [parmigiano, grated parmesan], nutrition: [392, 35.8, 3.2, 25.8, 0]}
-- {slug: feta, name: Feta, category: dairy, unit: g, density: 0.63, shelf_life: 30, allergens: [milk], nutrition: [264, 14.2, 4.1, 21.3, 0]}
-- {slug: sour_cream, name: Sour cream, category: dairy, unit: g, density: 1.0, shelf_life: 21, allergens: [milk],
+- {slug: parmesan, fdc_id: 171247, name: Parmesan, category: dairy, unit: g, density: 0.35, shelf_life: 60, allergens: [milk],
+   aliases: [parmigiano, grated parmesan], nutrition: [420, 28.4, 13.9, 27.8, 0]}
+- {slug: feta, fdc_id: 173420, name: Feta, category: dairy, unit: g, density: 0.63, shelf_life: 30, allergens: [milk], nutrition: [265, 14.2, 3.9, 21.5, 0]}
+- {slug: sour_cream, fdc_id: 171257, name: Sour cream, category: dairy, unit: g, density: 1.0, shelf_life: 21, allergens: [milk],
    nutrition: [198, 2.4, 4.6, 19.4, 0]}
-- {slug: heavy_cream, name: Heavy cream, category: dairy, unit: ml, grams_per_unit: 1.0, density: 1.0, shelf_life: 10, allergens: [milk],
-   aliases: [cream, double cream], nutrition: [340, 2.8, 2.7, 36.1, 0]}
-- {slug: mayonnaise, name: Mayonnaise, category: condiment, unit: g, density: 0.93, allergens: [egg], aliases: [mayo],
-   nutrition: [680, 1.0, 0.6, 74.9, 0]}
-- {slug: mustard, name: Mustard, category: condiment, unit: g, density: 1.05, aliases: [dijon mustard], nutrition: [60, 3.7, 5.8, 3.3, 4.0]}
-- {slug: ketchup, name: Ketchup, category: condiment, unit: g, density: 1.13, nutrition: [101, 1.0, 27.4, 0.1, 0.3]}
-- {slug: soy_sauce, name: Soy sauce, category: condiment, unit: ml, grams_per_unit: 1.07, density: 1.07, allergens: [soy, gluten],
+- {slug: heavy_cream, fdc_id: 170859, name: Heavy cream, category: dairy, unit: ml, grams_per_unit: 1.0, density: 1.0, shelf_life: 10, allergens: [milk],
+   aliases: [cream, double cream], nutrition: [340, 2.8, 2.8, 36.1, 0]}
+- {slug: mayonnaise, fdc_id: 171009, name: Mayonnaise, category: condiment, unit: g, density: 0.93, allergens: [egg], aliases: [mayo],
+   nutrition: [680, 1, 0.6, 74.8, 0]}
+- {slug: mustard, fdc_id: 172234, name: Mustard, category: condiment, unit: g, density: 1.05, aliases: [dijon mustard], nutrition: [60, 3.7, 5.8, 3.3, 4]}
+- {slug: ketchup, fdc_id: 168556, name: Ketchup, category: condiment, unit: g, density: 1.13, nutrition: [101, 1, 27.4, 0.1, 0.3]}
+- {slug: soy_sauce, fdc_id: 174277, name: Soy sauce, category: condiment, unit: ml, grams_per_unit: 1.07, density: 1.07, allergens: [soy, gluten],
    nutrition: [53, 8.1, 4.9, 0.6, 0.8]}
-- {slug: sesame_oil, name: Sesame oil, category: condiment, unit: ml, grams_per_unit: 0.92, density: 0.92, allergens: [sesame],
+- {slug: sesame_oil, fdc_id: 171016, name: Sesame oil, category: condiment, unit: ml, grams_per_unit: 0.92, density: 0.92, allergens: [sesame],
    nutrition: [884, 0, 0, 100, 0]}
-- {slug: honey, name: Honey, category: condiment, unit: g, density: 1.42, diet: animal, nutrition: [304, 0.3, 82.4, 0, 0.2]}
-- {slug: maple_syrup, name: Maple syrup, category: condiment, unit: ml, grams_per_unit: 1.32, density: 1.32, nutrition: [260, 0, 67.0, 0.1, 0]}
-- {slug: peanut_butter, name: Peanut butter, category: pantry, unit: g, density: 1.07, allergens: [peanut], nutrition: [588, 25.1, 20.0, 50.4, 6.0]}
-- {slug: walnuts, name: Walnuts, category: pantry, unit: g, density: 0.5, allergens: [tree_nut], nutrition: [654, 15.2, 13.7, 65.2, 6.7]}
-- {slug: vanilla_extract, name: Vanilla extract, category: pantry, unit: ml, grams_per_unit: 0.88, density: 0.88, nutrition: [288, 0.1, 12.7, 0.1, 0]}
-- {slug: curry_powder, name: Curry powder, category: spice, unit: g, density: 0.4, aliases: [garam masala], nutrition: [325, 14.3, 55.8, 14.0, 53.2]}
-- {slug: ginger, name: Ginger, category: produce, unit: g, density: 0.45, shelf_life: 21, aliases: [fresh ginger, ginger root],
-   nutrition: [80, 1.8, 17.8, 0.8, 2.0]}
-- {slug: green_onion, name: Green onion, category: produce, unit: piece, grams_per_unit: 15, density: 0.4, shelf_life: 7,
+- {slug: honey, fdc_id: 169640, name: Honey, category: condiment, unit: g, density: 1.42, diet: animal, nutrition: [304, 0.3, 82.4, 0, 0.2]}
+- {slug: maple_syrup, fdc_id: 169661, name: Maple syrup, category: condiment, unit: ml, grams_per_unit: 1.32, density: 1.32, nutrition: [260, 0, 67, 0.1, 0]}
+- {slug: peanut_butter, fdc_id: 172470, name: Peanut butter, category: pantry, unit: g, density: 1.07, allergens: [peanut], nutrition: [598, 22.2, 22.3, 51.4, 5]}
+- {slug: walnuts, fdc_id: 170187, name: Walnuts, category: pantry, unit: g, density: 0.5, allergens: [tree_nut], nutrition: [654, 15.2, 13.7, 65.2, 6.7]}
+- {slug: vanilla_extract, fdc_id: 173471, name: Vanilla extract, category: pantry, unit: ml, grams_per_unit: 0.88, density: 0.88, nutrition: [288, 0.1, 12.7, 0.1, 0]}
+- {slug: curry_powder, fdc_id: 170924, name: Curry powder, category: spice, unit: g, density: 0.4, aliases: [garam masala], nutrition: [325, 14.3, 55.8, 14, 53.2]}
+- {slug: ginger, fdc_id: 169231, name: Ginger, category: produce, unit: g, density: 0.45, shelf_life: 21, aliases: [fresh ginger, ginger root],
+   nutrition: [80, 1.8, 17.8, 0.8, 2]}
+- {slug: green_onion, fdc_id: 170005, name: Green onion, category: produce, unit: piece, grams_per_unit: 15, density: 0.4, shelf_life: 7,
    aliases: [scallion, spring onion, scallions], nutrition: [32, 1.8, 7.3, 0.2, 2.6]}
-- {slug: parsley, name: Parsley, category: produce, unit: g, density: 0.25, shelf_life: 7, nutrition: [36, 3.0, 6.3, 0.8, 3.3]}
-- {slug: cilantro, name: Cilantro, category: produce, unit: g, density: 0.07, shelf_life: 7, aliases: [coriander leaves],
+- {slug: parsley, fdc_id: 170416, name: Parsley, category: produce, unit: g, density: 0.25, shelf_life: 7, nutrition: [36, 3, 6.3, 0.8, 3.3]}
+- {slug: cilantro, fdc_id: 169997, name: Cilantro, category: produce, unit: g, density: 0.07, shelf_life: 7, aliases: [coriander leaves],
    nutrition: [23, 2.1, 3.7, 0.5, 2.8]}
-- {slug: basil, name: Basil, category: produce, unit: g, density: 0.1, shelf_life: 5, nutrition: [23, 3.2, 2.7, 0.6, 1.6]}
-- {slug: avocado, name: Avocado, category: produce, unit: piece, grams_per_unit: 136, shelf_life: 4, nutrition: [160, 2.0, 8.5, 14.7, 6.7]}
-- {slug: peas, name: Peas (frozen), category: produce, unit: g, density: 0.6, aliases: [green peas, frozen peas],
-   nutrition: [81, 5.4, 14.5, 0.4, 5.7]}
-- {slug: corn, name: Sweet corn, category: produce, unit: g, density: 0.69, aliases: [corn kernels, frozen corn],
-   nutrition: [86, 3.3, 19.0, 1.4, 2.0]}
+- {slug: basil, fdc_id: 172232, name: Basil, category: produce, unit: g, density: 0.1, shelf_life: 5, nutrition: [23, 3.1, 2.6, 0.6, 1.6]}
+- {slug: avocado, fdc_id: 171705, name: Avocado, category: produce, unit: piece, grams_per_unit: 136, shelf_life: 4, nutrition: [160, 2, 8.5, 14.7, 6.7]}
+- {slug: peas, fdc_id: 170016, name: Peas (frozen), category: produce, unit: g, density: 0.6, aliases: [green peas, frozen peas],
+   nutrition: [77, 5.2, 13.6, 0.4, 4.5]}
+- {slug: corn, fdc_id: 169998, name: Sweet corn, category: produce, unit: g, density: 0.69, aliases: [corn kernels, frozen corn],
+   nutrition: [86, 3.3, 18.7, 1.4, 2]}
