@@ -66,11 +66,23 @@ The model is trained and exported in `fridgelens-ai`. To deploy one:
 Inference uses ONNX Runtime on CPU through `app/vision/onnx_infer.py`, a copy of
 `fridgelens-ai/meallens_ai/onnx_infer.py`. Keep the two in sync.
 
-## Deploy
+## Using it from a phone
 
-The `Dockerfile` runs `uvicorn` on `$PORT`. Any container host works; pick one that does **not
-sleep idle services**, or the first request of the demo waits for a cold start. Set the
-variables from `.env.example` in the host's dashboard.
+For now the API runs on a laptop; only the database, Auth and photo storage are in Supabase.
+For the phone to reach the laptop:
+
+1. Start the server on all network interfaces:
+   `uvicorn app.main:create_app --factory --host 0.0.0.0 --port 8000`.
+2. Put the phone and the laptop on the **same Wi-Fi**, and find the laptop's address
+   (macOS: `ipconfig getifaddr en0`; Windows: `ipconfig`). Point the app at
+   `http://<that address>:8000`.
+3. Allow incoming connections for Python if the laptop's firewall asks.
+4. The app calls the API over plain `http`, which Android and iOS block by default. Allow it in
+   the Flutter app's debug configuration, or use a tunnel such as `cloudflared tunnel --url
+   http://localhost:8000`, which gives an `https` address that also works off campus Wi-Fi.
+
+The `Dockerfile` (uvicorn on `$PORT`) is there for when the API moves to a host. Pick one that
+does not put idle services to sleep.
 
 ## Tests
 
