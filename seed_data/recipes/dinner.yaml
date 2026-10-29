@@ -212,9 +212,9 @@
   servings: 3
   prep: 15
   cook: 12
-  description: Low-carb fried "rice" made from grated cauliflower, egg and vegetables.
+  description: Low-carb fried "rice" of grated cauliflower, egg and vegetables.
   ingredients:
-    - 600 g cauliflower | grated into rice-size pieces
+    - 600 g cauliflower | grated to rice-size pieces
     - 3 piece egg
     - 1 piece carrot | finely diced
     - 80 g peas
@@ -312,7 +312,7 @@
   cook: 15
   description: Soft, glossy eggplant in a sweet garlic-soy sauce.
   ingredients:
-    - 2 piece eggplant | cut into batons
+    - 2 piece eggplant | cut in batons
     - 5 clove garlic | minced
     - 10 g ginger | grated
     - 3 tbsp soy_sauce
@@ -471,8 +471,8 @@
     - 20 g mayonnaise | garnish
     - 20 g ketchup | garnish
   steps:
-    - Whisk the flour, eggs and broth into a batter, then fold in the cabbage and green onion.
-    - Heat the oil and spread half the batter into a thick round. Lay bacon on top.
+    - Whisk the flour, eggs and broth to a smooth batter, then fold in the cabbage and green onion.
+    - Heat the oil and spread half the batter in a thick round. Lay bacon on top.
     - Cook 5 minutes per side until golden and cooked through.
     - Drizzle with mayonnaise and ketchup.
 
@@ -650,7 +650,7 @@
   description: Lemony paprika chicken roasted with potatoes, carrots and onion.
   ingredients:
     - 700 g chicken | thighs
-    - 4 piece potato | cut into wedges
+    - 4 piece potato | cut in wedges
     - 2 piece carrot | chunks
     - 1 piece onion | wedges
     - 4 clove garlic
@@ -968,7 +968,7 @@
   steps:
     - Simmer the lentils in 900 ml water for 20 minutes until soft.
     - Cook the onion in the oil for 6 minutes, add the garlic, ginger and spices, then the tomatoes.
-    - Stir the tomato mixture into the lentils and simmer 5 minutes.
+    - Stir the tomato mixture through the lentils and simmer 5 minutes.
     - Season and serve with rice and cilantro.
 
 - slug: yogurt-chicken-skewers
@@ -1035,7 +1035,7 @@
     - 1 pinch salt
     - 1 pinch black_pepper
   steps:
-    - Shape the beef into four patties and season well.
+    - Shape the beef as four patties and season well.
     - Cook in a hot pan 3 to 4 minutes per side, adding the cheese for the last minute.
     - Toast the bread.
     - Build the burgers with lettuce, tomato, onion and ketchup.

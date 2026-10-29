@@ -64,7 +64,7 @@
   steps:
     - Heat the oil in a pan and cook the pepper and onion for 4 minutes.
     - Add the greens and stir until wilted.
-    - Beat the eggs with salt and pepper and pour into the pan.
+    - Beat the eggs with salt and pepper and add them to the pan.
     - Stir slowly over low heat until softly set, then fold in the cheese.
 
 - slug: mushroom-spinach-omelette
@@ -74,7 +74,7 @@
   servings: 1
   prep: 5
   cook: 8
-  description: Golden mushrooms and wilted spinach folded into a fluffy omelette.
+  description: Golden mushrooms and wilted spinach in a fluffy folded omelette.
   ingredients:
     - 2 piece egg
     - 60 g mushroom | sliced
@@ -112,7 +112,7 @@
     - Heat the oil in a wide pan and cook the onion and pepper for 6 minutes.
     - Stir in the garlic, cumin and paprika for 1 minute.
     - Add the tomatoes and salt and simmer for 10 minutes until thick.
-    - Make four wells, crack an egg into each, cover and cook 5 to 7 minutes.
+    - Make four wells, crack an egg in each, cover and cook 5 to 7 minutes.
     - Scatter with cilantro and serve with bread.
 
 - slug: avocado-egg-toast
@@ -179,7 +179,7 @@
     - 1 tsp sugar
   steps:
     - Mix the flour, baking powder and sugar in a bowl.
-    - Whisk the banana, egg, milk and melted butter, then stir into the flour until just combined.
+    - Whisk the banana, egg, milk and melted butter, then fold in the flour mixture until just combined.
     - Cook ladlefuls in a buttered pan over medium heat until bubbles form.
     - Flip and cook 1 minute more.
 
@@ -202,7 +202,7 @@
     - 100 g strawberry | supporting | sliced
   steps:
     - Whisk the flour, sugar, baking powder and salt.
-    - Whisk the milk, egg and melted butter, then pour into the dry mix and stir until just combined.
+    - Whisk the milk, egg and melted butter, then add the dry mix and stir until just combined.
     - Rest the batter 5 minutes.
     - Cook in a lightly greased pan, about 2 minutes per side.
     - Top with strawberries.
@@ -314,9 +314,9 @@
     - 10 g butter
     - 1 pinch salt
   steps:
-    - Cut a circle from the centre of the bread.
+    - Cut a circle out of the centre of the bread.
     - Melt the butter in a pan and add the bread and the cut-out circle.
-    - Crack the egg into the hole, season and cook 2 minutes.
+    - Crack the egg in the hole, season and cook 2 minutes.
     - Flip carefully and cook 1 minute more.
 
 - slug: breakfast-burrito

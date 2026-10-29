@@ -30,7 +30,7 @@
   cook: 0
   description: Chunky tomato, cucumber, pepper and onion salad with feta.
   ingredients:
-    - 2 piece tomato | cut into wedges
+    - 2 piece tomato | cut in wedges
     - 0.5 piece cucumber | sliced
     - 1 piece bell_pepper | sliced
     - 0.5 piece onion | red onion, thinly sliced
@@ -664,8 +664,8 @@
   description: Charred eggplant and peppers with melted cheese and garlic oil.
   ingredients:
     - 4 slice bread
-    - 0.5 piece eggplant | sliced into rounds
-    - 1 piece bell_pepper | cut into strips
+    - 0.5 piece eggplant | sliced in rounds
+    - 1 piece bell_pepper | cut in strips
     - 60 g cheese | mozzarella, sliced
     - 1 clove garlic | grated
     - 3 tbsp olive_oil
