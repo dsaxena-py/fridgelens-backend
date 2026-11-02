@@ -69,7 +69,7 @@ for fn in (0.1, 0.2, 0.3):
     ov = []; top1 = []
     for _ in range(N):
         F = set(rng.sample(det, 8))
-        D = {s for s in F if rng.random() > fn}
+        D = {s for s in sorted(F) if rng.random() > fn}  # sorted: set order varies with PYTHONHASHSEED
         a = [x["t"] for x in rank(F)[:5]]; b = [x["t"] for x in rank(D)[:5]]
         ov.append(len(set(a) & set(b)) / max(1, len(a))); top1.append(bool(a) and bool(b) and a[0] == b[0])
     res[f"fn{fn}"] = dict(top5_overlap=round(st.mean(ov), 3), top1_same=round(st.mean(top1), 3))
