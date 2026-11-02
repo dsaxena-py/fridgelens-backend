@@ -1,0 +1,530 @@
+# Breakfast recipes. Line format: "<qty> <unit> <ingredient slug> | <role> | <note>" (role and note optional).
+
+- slug: tomato-omelette
+  title: Tomato Omelette
+  meal: breakfast
+  cuisine: French
+  servings: 1
+  prep: 5
+  cook: 8
+  description: A soft two-egg omelette folded around warm diced tomato and onion.
+  ingredients:
+    - 2 piece egg
+    - 1 piece tomato | seeded and diced
+    - 0.25 piece onion | supporting | finely chopped
+    - 10 g butter
+    - 2 g parsley | garnish | chopped
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Beat the eggs with the salt and pepper.
+    - Melt the butter in a non-stick pan over medium heat and soften the onion for 2 minutes.
+    - Add the tomato and cook for 1 minute, then pour in the eggs.
+    - Stir gently until the eggs are almost set, then fold the omelette in half.
+    - Slide onto a plate and top with parsley.
+
+- slug: cheese-omelette
+  title: Cheese Omelette
+  meal: breakfast
+  cuisine: French
+  servings: 1
+  prep: 3
+  cook: 5
+  description: A classic folded omelette with melted cheddar.
+  ingredients:
+    - 3 piece egg
+    - 30 g cheese | grated
+    - 1 tbsp milk | supporting
+    - 10 g butter
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Whisk the eggs, milk, salt and pepper until smooth.
+    - Melt the butter in a non-stick pan over medium heat and pour in the eggs.
+    - Pull the set edges toward the centre until the top is just set.
+    - Scatter the cheese over one half, fold, and cook 30 seconds more.
+
+- slug: veggie-scramble
+  title: Veggie Scramble
+  meal: breakfast
+  cuisine: American
+  servings: 2
+  prep: 8
+  cook: 8
+  description: Scrambled eggs with sautéed pepper, onion and greens.
+  ingredients:
+    - 4 piece egg
+    - 1 piece bell_pepper | diced
+    - 0.5 piece onion | diced
+    - 40 g leafy_greens | supporting
+    - 30 g cheese | supporting | grated
+    - 1 tbsp cooking_oil
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Heat the oil in a pan and cook the pepper and onion for 4 minutes.
+    - Add the greens and stir until wilted.
+    - Beat the eggs with salt and pepper and add them to the pan.
+    - Stir slowly over low heat until softly set, then fold in the cheese.
+
+- slug: mushroom-spinach-omelette
+  title: Mushroom and Spinach Omelette
+  meal: breakfast
+  cuisine: French
+  servings: 1
+  prep: 5
+  cook: 8
+  description: Golden mushrooms and wilted spinach in a fluffy folded omelette.
+  ingredients:
+    - 2 piece egg
+    - 60 g mushroom | sliced
+    - 30 g leafy_greens
+    - 20 g cheese | supporting | grated
+    - 10 g butter
+    - 1 pinch salt
+  steps:
+    - Melt half the butter and fry the mushrooms until golden, about 4 minutes.
+    - Add the greens, wilt them, then move the filling to a plate.
+    - Melt the remaining butter, add the beaten eggs and salt, and cook until nearly set.
+    - Add the filling and cheese to one side, fold, and serve.
+
+- slug: shakshuka
+  title: Shakshuka
+  meal: breakfast
+  cuisine: Middle Eastern
+  servings: 2
+  prep: 10
+  cook: 20
+  difficulty: medium
+  description: Eggs poached in a spiced tomato and pepper sauce.
+  ingredients:
+    - 4 piece egg
+    - 4 piece tomato | chopped
+    - 1 piece onion | diced
+    - 1 piece bell_pepper | diced
+    - 2 clove garlic | minced
+    - 1 tsp cumin
+    - 1 tsp paprika
+    - 2 tbsp olive_oil
+    - 3 g cilantro | garnish
+    - 1 pinch salt
+  steps:
+    - Heat the oil in a wide pan and cook the onion and pepper for 6 minutes.
+    - Stir in the garlic, cumin and paprika for 1 minute.
+    - Add the tomatoes and salt and simmer for 10 minutes until thick.
+    - Make four wells, crack an egg in each, cover and cook 5 to 7 minutes.
+    - Scatter with cilantro and serve with bread.
+
+- slug: avocado-egg-toast
+  title: Avocado Toast with Fried Egg
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 5
+  description: Smashed avocado on toast topped with a crispy fried egg.
+  ingredients:
+    - 2 slice bread
+    - 1 piece egg
+    - 0.5 piece avocado
+    - 0.25 piece lemon | supporting | juiced
+    - 1 tsp olive_oil
+    - 1 pinch chili_flakes
+    - 1 pinch salt
+  steps:
+    - Toast the bread.
+    - Mash the avocado with the lemon juice and salt.
+    - Fry the egg in the oil until the edges are crisp.
+    - Spread the avocado on the toast, top with the egg and chili flakes.
+
+- slug: french-toast
+  title: French Toast
+  meal: breakfast
+  cuisine: French
+  servings: 2
+  prep: 5
+  cook: 10
+  description: Cinnamon custard-soaked bread fried in butter.
+  ingredients:
+    - 4 slice bread
+    - 2 piece egg
+    - 120 ml milk
+    - 15 g butter
+    - 0.5 tsp cinnamon
+    - 1 tsp sugar
+    - 2 tbsp maple_syrup | supporting
+    - 60 g strawberry | garnish | sliced
+  steps:
+    - Whisk the eggs, milk, cinnamon and sugar in a shallow dish.
+    - Melt the butter in a pan over medium heat.
+    - Dip each slice of bread in the custard for a few seconds per side.
+    - Fry 2 to 3 minutes per side until golden.
+    - Serve with maple syrup and strawberries.
+
+- slug: banana-pancakes
+  title: Banana Pancakes
+  meal: breakfast
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 15
+  description: Fluffy pancakes with mashed ripe banana in the batter.
+  ingredients:
+    - 1 piece banana | mashed
+    - 1 piece egg
+    - 120 g flour
+    - 180 ml milk
+    - 1.5 tsp baking_powder
+    - 15 g butter | melted, plus extra for the pan
+    - 1 tsp sugar
+  steps:
+    - Mix the flour, baking powder and sugar in a bowl.
+    - Whisk the banana, egg, milk and melted butter, then fold in the flour mixture until just combined.
+    - Cook ladlefuls in a buttered pan over medium heat until bubbles form.
+    - Flip and cook 1 minute more.
+
+- slug: classic-pancakes
+  title: Classic Pancakes
+  meal: breakfast
+  cuisine: American
+  servings: 3
+  prep: 10
+  cook: 15
+  description: Light buttermilk-style pancakes with fresh strawberries.
+  ingredients:
+    - 150 g flour
+    - 240 ml milk
+    - 1 piece egg
+    - 20 g butter | melted
+    - 1 tbsp sugar
+    - 2 tsp baking_powder
+    - 1 pinch salt
+    - 100 g strawberry | supporting | sliced
+  steps:
+    - Whisk the flour, sugar, baking powder and salt.
+    - Whisk the milk, egg and melted butter, then add the dry mix and stir until just combined.
+    - Rest the batter 5 minutes.
+    - Cook in a lightly greased pan, about 2 minutes per side.
+    - Top with strawberries.
+
+- slug: banana-oatmeal
+  title: Banana Walnut Oatmeal
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 2
+  cook: 6
+  description: Creamy oats cooked in milk with banana and cinnamon.
+  ingredients:
+    - 50 g oats
+    - 200 ml milk
+    - 1 piece banana | sliced
+    - 0.25 tsp cinnamon
+    - 1 tsp honey | supporting
+    - 10 g walnuts | garnish | chopped
+  steps:
+    - Bring the milk to a simmer and stir in the oats.
+    - Cook 5 minutes, stirring, until creamy.
+    - Stir in half the banana and the cinnamon.
+    - Top with the remaining banana, honey and walnuts.
+
+- slug: apple-cinnamon-oatmeal
+  title: Apple Cinnamon Oatmeal
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 8
+  description: Oats simmered with grated apple, cinnamon and maple.
+  ingredients:
+    - 50 g oats
+    - 200 ml milk
+    - 1 piece apple | grated
+    - 0.5 tsp cinnamon
+    - 1 tbsp maple_syrup | supporting
+  steps:
+    - Simmer the milk, oats and grated apple for 6 minutes, stirring often.
+    - Stir in the cinnamon.
+    - Serve drizzled with maple syrup.
+
+- slug: strawberry-yogurt-parfait
+  title: Strawberry Yogurt Parfait
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 0
+  description: Layers of yogurt, fresh strawberries and toasted oats.
+  ingredients:
+    - 170 g yogurt
+    - 80 g strawberry | sliced
+    - 0.5 piece banana | supporting | sliced
+    - 25 g oats
+    - 1 tsp honey
+  steps:
+    - Toast the oats in a dry pan for 3 minutes until fragrant, then cool.
+    - Layer yogurt, fruit and oats in a glass.
+    - Drizzle with honey.
+
+- slug: strawberry-banana-smoothie
+  title: Strawberry Banana Smoothie
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 0
+  description: A thick smoothie of strawberries, banana and yogurt.
+  ingredients:
+    - 1 piece banana
+    - 100 g strawberry
+    - 100 g yogurt
+    - 120 ml milk
+  steps:
+    - Blend everything until smooth.
+    - Add a splash more milk if it is too thick.
+
+- slug: orange-banana-smoothie
+  title: Orange Banana Smoothie
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 0
+  description: Bright citrus smoothie with banana and yogurt.
+  ingredients:
+    - 1 piece orange | peeled
+    - 1 piece banana
+    - 100 g yogurt
+    - 1 tsp honey | supporting
+  steps:
+    - Peel the orange and remove any seeds.
+    - Blend with the banana, yogurt and honey until smooth.
+
+- slug: egg-in-a-hole
+  title: Egg in a Hole
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 2
+  cook: 5
+  description: A fried egg cooked inside a buttery slice of toast.
+  ingredients:
+    - 1 slice bread
+    - 1 piece egg
+    - 10 g butter
+    - 1 pinch salt
+  steps:
+    - Cut a circle out of the centre of the bread.
+    - Melt the butter in a pan and add the bread and the cut-out circle.
+    - Crack the egg in the hole, season and cook 2 minutes.
+    - Flip carefully and cook 1 minute more.
+
+- slug: breakfast-burrito
+  title: Breakfast Burrito
+  meal: breakfast
+  cuisine: Mexican
+  servings: 2
+  prep: 10
+  cook: 15
+  description: Tortillas filled with crispy potatoes, eggs, peppers and cheese.
+  ingredients:
+    - 2 piece tortilla
+    - 4 piece egg
+    - 1 piece potato | diced small
+    - 0.5 piece bell_pepper | diced
+    - 0.5 piece onion | diced
+    - 40 g cheese | grated
+    - 1 tbsp cooking_oil
+    - 1 pinch salt
+  steps:
+    - Fry the potato in the oil for 8 minutes until crisp.
+    - Add the pepper and onion and cook 3 minutes.
+    - Add the beaten eggs and salt and scramble until just set.
+    - Warm the tortillas, fill with the egg mixture and cheese, and roll up.
+
+- slug: potato-hash-with-eggs
+  title: Potato Hash with Fried Eggs
+  meal: breakfast
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 20
+  description: Crispy smoked-paprika potatoes with peppers, onion and runny eggs.
+  ingredients:
+    - 2 piece potato | diced
+    - 1 piece onion | diced
+    - 1 piece bell_pepper | diced
+    - 2 piece egg
+    - 1 tsp paprika
+    - 2 tbsp cooking_oil
+    - 1 pinch salt
+  steps:
+    - Cook the potatoes in the oil over medium heat for 12 minutes, turning often.
+    - Add the onion, pepper, paprika and salt and cook 5 minutes.
+    - Make two wells, crack in the eggs, cover and cook until the whites set.
+
+- slug: bacon-egg-sandwich
+  title: Bacon, Egg and Cheese Sandwich
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 3
+  cook: 8
+  description: Crisp bacon, a fried egg and melted cheese on buttered toast.
+  ingredients:
+    - 2 slice bread
+    - 1 piece egg
+    - 2 slice bacon
+    - 20 g cheese | sliced
+    - 5 g butter
+  steps:
+    - Fry the bacon until crisp and drain.
+    - Fry the egg in the bacon fat.
+    - Butter and toast the bread.
+    - Stack the egg, bacon and cheese between the toast.
+
+- slug: ham-cheese-scramble
+  title: Ham and Cheese Scramble
+  meal: breakfast
+  cuisine: American
+  servings: 2
+  prep: 5
+  cook: 6
+  description: Creamy scrambled eggs with diced ham and cheddar.
+  ingredients:
+    - 4 piece egg
+    - 2 slice ham | diced
+    - 40 g cheese | grated
+    - 2 tbsp milk
+    - 10 g butter
+    - 1 pinch black_pepper
+  steps:
+    - Whisk the eggs, milk and pepper.
+    - Melt the butter over low heat, add the ham and warm through.
+    - Pour in the eggs and stir slowly until creamy.
+    - Fold in the cheese off the heat.
+
+- slug: spinach-feta-scramble
+  title: Spinach and Feta Scramble
+  meal: breakfast
+  cuisine: Greek
+  servings: 2
+  prep: 5
+  cook: 7
+  description: Eggs scrambled with wilted spinach, onion and salty feta.
+  ingredients:
+    - 4 piece egg
+    - 60 g leafy_greens
+    - 0.5 piece onion | finely chopped
+    - 40 g feta | crumbled
+    - 1 tbsp olive_oil
+  steps:
+    - Soften the onion in the oil for 3 minutes.
+    - Add the greens and cook until wilted.
+    - Add the beaten eggs and stir until softly set.
+    - Crumble over the feta and serve.
+
+- slug: strawberry-overnight-oats
+  title: Strawberry Overnight Oats
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 0
+  description: No-cook oats soaked overnight with yogurt and strawberries.
+  ingredients:
+    - 50 g oats
+    - 120 ml milk
+    - 80 g yogurt
+    - 80 g strawberry | chopped
+    - 1 tsp honey
+  steps:
+    - Stir the oats, milk, yogurt and honey together in a jar.
+    - Top with strawberries, cover and refrigerate overnight.
+    - Stir and eat cold.
+
+- slug: cucumber-tomato-yogurt-bowl
+  title: Cucumber Tomato Yogurt Bowl
+  meal: breakfast
+  cuisine: Turkish
+  servings: 1
+  prep: 8
+  cook: 0
+  description: Savoury yogurt topped with crunchy cucumber, tomato, olive oil and lemon.
+  ingredients:
+    - 170 g yogurt
+    - 0.33 piece cucumber | diced
+    - 1 piece tomato | diced
+    - 0.25 piece lemon | supporting | juiced
+    - 1 tbsp olive_oil
+    - 1 slice bread | supporting | toasted, to serve
+    - 1 pinch salt
+  steps:
+    - Spread the yogurt in a shallow bowl and season with salt.
+    - Toss the cucumber and tomato with the lemon juice.
+    - Pile the vegetables on the yogurt and drizzle with olive oil.
+    - Serve with toast.
+
+- slug: carrot-cake-oatmeal
+  title: Carrot Cake Oatmeal
+  meal: breakfast
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 8
+  description: Oats cooked with grated carrot, cinnamon, maple and walnuts.
+  ingredients:
+    - 50 g oats
+    - 200 ml milk
+    - 1 piece carrot | finely grated
+    - 0.5 tsp cinnamon
+    - 1 tbsp maple_syrup
+    - 10 g walnuts | garnish | chopped
+  steps:
+    - Simmer the milk, oats and carrot for 7 minutes, stirring often.
+    - Stir in the cinnamon and maple syrup.
+    - Top with walnuts.
+
+- slug: egg-muffins
+  title: Veggie Egg Muffins
+  meal: breakfast
+  cuisine: American
+  servings: 6
+  prep: 10
+  cook: 20
+  description: Make-ahead baked egg cups with pepper, spinach and cheese.
+  ingredients:
+    - 8 piece egg
+    - 1 piece bell_pepper | finely diced
+    - 50 g leafy_greens | chopped
+    - 0.5 piece onion | finely diced
+    - 60 g cheese | grated
+    - 60 ml milk
+    - 1 pinch salt
+    - 1 tsp cooking_oil
+  steps:
+    - Heat the oven to 180°C (350°F) and oil a 12-cup muffin tin.
+    - Divide the pepper, greens and onion between the cups.
+    - Whisk the eggs, milk and salt, pour over the vegetables and top with cheese.
+    - Bake 18 to 20 minutes until set.
+
+- slug: tomato-cheese-toast
+  title: Tomato Cheese Toast
+  meal: breakfast
+  cuisine: Italian
+  servings: 1
+  prep: 5
+  cook: 6
+  description: Toast topped with sliced tomato and bubbling melted cheese.
+  ingredients:
+    - 2 slice bread
+    - 1 piece tomato | sliced
+    - 40 g cheese | sliced
+    - 1 tsp olive_oil
+    - 2 g basil | garnish
+    - 1 pinch dried_oregano
+  steps:
+    - Lightly toast the bread and drizzle with olive oil.
+    - Top with tomato, oregano and cheese.
+    - Grill for 3 to 4 minutes until the cheese bubbles.
+    - Finish with basil.

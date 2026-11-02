@@ -1,0 +1,1093 @@
+# Dinner recipes. Line format: "<qty> <unit> <ingredient slug> | <role> | <note>" (role and note optional).
+
+- slug: chicken-vegetable-stir-fry
+  title: Chicken Vegetable Stir-Fry
+  meal: dinner
+  cuisine: Chinese
+  servings: 3
+  prep: 15
+  cook: 12
+  description: Tender chicken with peppers, broccoli and carrot in a garlic-ginger sauce.
+  ingredients:
+    - 400 g chicken | thinly sliced
+    - 1 piece bell_pepper | sliced
+    - 200 g broccoli | florets
+    - 1 piece carrot | sliced
+    - 3 clove garlic | minced
+    - 15 g ginger | grated
+    - 3 tbsp soy_sauce
+    - 2 tbsp cooking_oil
+    - 200 g rice | supporting | to serve
+  steps:
+    - Cook the rice.
+    - Stir-fry the chicken in half the oil over high heat for 5 minutes, then remove.
+    - Stir-fry the vegetables in the remaining oil for 4 minutes with a splash of water.
+    - Add the garlic and ginger for 1 minute, return the chicken and add the soy sauce.
+    - Serve over rice.
+
+- slug: beef-broccoli-rice-bowl
+  title: Beef and Broccoli Rice Bowl
+  meal: dinner
+  cuisine: Chinese
+  servings: 3
+  prep: 10
+  cook: 15
+  description: Savory ground beef and broccoli in a soy-garlic glaze over rice.
+  ingredients:
+    - 400 g ground_beef
+    - 300 g broccoli | florets
+    - 3 clove garlic | minced
+    - 10 g ginger | grated
+    - 4 tbsp soy_sauce
+    - 1 tbsp honey
+    - 200 g rice
+    - 1 tbsp cooking_oil
+  steps:
+    - Cook the rice.
+    - Brown the beef in the oil, breaking it up, about 6 minutes.
+    - Add the garlic, ginger and broccoli with 3 tablespoons of water, cover and cook 4 minutes.
+    - Stir in the soy sauce and honey and simmer 2 minutes.
+    - Serve over the rice.
+
+- slug: spaghetti-bolognese
+  title: Spaghetti Bolognese
+  meal: dinner
+  cuisine: Italian
+  servings: 4
+  prep: 15
+  cook: 45
+  difficulty: medium
+  description: Slow-simmered beef and tomato sauce over spaghetti.
+  ingredients:
+    - 350 g pasta | spaghetti
+    - 500 g ground_beef
+    - 1 piece onion | finely diced
+    - 1 piece carrot | finely diced
+    - 3 clove garlic | minced
+    - 800 g canned_tomatoes
+    - 2 tbsp olive_oil
+    - 1 tsp dried_oregano
+    - 30 g parmesan | garnish
+    - 1 pinch salt
+  steps:
+    - Cook the onion and carrot in the oil for 8 minutes, then add the garlic.
+    - Add the beef and brown well.
+    - Add the tomatoes, oregano and salt and simmer 30 minutes.
+    - Cook the spaghetti, toss with the sauce and top with parmesan.
+
+- slug: chicken-alfredo
+  title: Chicken Alfredo with Broccoli
+  meal: dinner
+  cuisine: Italian-American
+  servings: 4
+  prep: 10
+  cook: 25
+  description: Fettuccine in a garlicky parmesan cream sauce with seared chicken.
+  ingredients:
+    - 350 g pasta | fettuccine
+    - 400 g chicken
+    - 250 ml heavy_cream
+    - 60 g parmesan | grated
+    - 3 clove garlic | minced
+    - 30 g butter
+    - 200 g broccoli | supporting | florets
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Season and sear the chicken in half the butter, 6 minutes per side, then slice.
+    - Cook the pasta, adding the broccoli for the last 3 minutes, then drain.
+    - Melt the remaining butter, cook the garlic 1 minute, add the cream and simmer 3 minutes.
+    - Stir in the parmesan, then toss with the pasta, broccoli and chicken.
+
+- slug: chicken-coconut-curry
+  title: Chicken Coconut Curry
+  meal: dinner
+  cuisine: Indian
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Chicken simmered in a fragrant tomato and coconut curry sauce.
+  ingredients:
+    - 500 g chicken | thigh, cubed
+    - 1 piece onion | diced
+    - 3 clove garlic | minced
+    - 15 g ginger | grated
+    - 2 piece tomato | chopped
+    - 2 tbsp curry_powder
+    - 400 ml coconut_milk
+    - 2 tbsp cooking_oil
+    - 250 g rice | supporting | to serve
+    - 5 g cilantro | garnish
+    - 1 pinch salt
+  steps:
+    - Cook the onion in the oil for 6 minutes, then add the garlic, ginger and curry powder.
+    - Add the chicken and brown for 4 minutes.
+    - Add the tomatoes and coconut milk and simmer 20 minutes.
+    - Season and serve over rice with cilantro.
+
+- slug: chicken-tikka-masala
+  title: Chicken Tikka Masala
+  meal: dinner
+  cuisine: Indian
+  servings: 4
+  prep: 20
+  cook: 35
+  difficulty: medium
+  description: Yogurt-marinated chicken in a creamy spiced tomato sauce.
+  ingredients:
+    - 600 g chicken | cubed
+    - 150 g yogurt
+    - 1 piece onion | diced
+    - 3 clove garlic | minced
+    - 15 g ginger | grated
+    - 400 g canned_tomatoes
+    - 150 ml heavy_cream
+    - 2 tbsp curry_powder
+    - 1 tsp cumin
+    - 1 tsp paprika
+    - 2 tbsp cooking_oil
+    - 250 g rice | supporting | to serve
+  steps:
+    - Marinate the chicken in the yogurt with half the spices for at least 20 minutes.
+    - Grill or pan-sear the chicken until charred in spots, then set aside.
+    - Cook the onion, garlic and ginger in the oil for 6 minutes, add the remaining spices.
+    - Add the tomatoes and simmer 15 minutes, then stir in the cream and chicken.
+    - Simmer 5 minutes and serve with rice.
+
+- slug: aloo-gobi
+  title: Aloo Gobi
+  meal: dinner
+  cuisine: Indian
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Potatoes and cauliflower cooked with tomato, ginger and warm spices.
+  ingredients:
+    - 2 piece potato | cubed
+    - 500 g cauliflower | florets
+    - 1 piece onion | diced
+    - 2 piece tomato | chopped
+    - 2 clove garlic | minced
+    - 10 g ginger | grated
+    - 1 tsp cumin
+    - 1 tbsp curry_powder
+    - 3 tbsp cooking_oil
+    - 5 g cilantro | garnish
+    - 1 pinch salt
+  steps:
+    - Cook the onion in the oil for 5 minutes, then add the garlic, ginger and spices.
+    - Add the potatoes and cauliflower and stir to coat.
+    - Add the tomatoes, salt and 100 ml water, cover and cook 20 minutes until tender.
+    - Garnish with cilantro.
+
+- slug: eggplant-curry
+  title: Eggplant Coconut Curry
+  meal: dinner
+  cuisine: Indian
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Silky eggplant in a tomato and coconut curry.
+  ingredients:
+    - 2 piece eggplant | cubed
+    - 1 piece onion | diced
+    - 2 piece tomato | chopped
+    - 3 clove garlic | minced
+    - 10 g ginger | grated
+    - 400 ml coconut_milk
+    - 2 tbsp curry_powder
+    - 3 tbsp cooking_oil
+    - 250 g rice | supporting | to serve
+    - 1 pinch salt
+  steps:
+    - Brown the eggplant in 2 tablespoons of oil for 8 minutes and set aside.
+    - Cook the onion, garlic and ginger in the remaining oil for 5 minutes, then add the curry powder.
+    - Add the tomatoes, coconut milk and eggplant and simmer 15 minutes.
+    - Season and serve with rice.
+
+- slug: cauliflower-fried-rice
+  title: Cauliflower Fried Rice
+  meal: dinner
+  cuisine: Asian
+  servings: 3
+  prep: 15
+  cook: 12
+  description: Low-carb fried "rice" of grated cauliflower, egg and vegetables.
+  ingredients:
+    - 600 g cauliflower | grated to rice-size pieces
+    - 3 piece egg
+    - 1 piece carrot | finely diced
+    - 80 g peas
+    - 0.5 piece onion | diced
+    - 2 clove garlic | minced
+    - 3 tbsp soy_sauce
+    - 2 tbsp cooking_oil
+    - 2 piece green_onion | garnish
+  steps:
+    - Stir-fry the onion, carrot and garlic in the oil for 4 minutes.
+    - Push aside and scramble the eggs.
+    - Add the cauliflower and peas and stir-fry 5 minutes until just tender.
+    - Season with soy sauce and top with green onion.
+
+- slug: eggplant-parmesan
+  title: Eggplant Parmesan
+  meal: dinner
+  cuisine: Italian
+  servings: 4
+  prep: 25
+  cook: 40
+  difficulty: medium
+  description: Crispy breaded eggplant baked with tomato sauce and melted cheese.
+  ingredients:
+    - 2 piece eggplant | sliced 1 cm thick
+    - 2 piece egg | beaten
+    - 100 g breadcrumbs
+    - 600 g canned_tomatoes
+    - 200 g cheese | mozzarella, grated
+    - 40 g parmesan | grated
+    - 5 g basil
+    - 4 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 200°C (400°F).
+    - Dip the eggplant in egg, then breadcrumbs, and pan-fry in the oil until golden.
+    - Simmer the tomatoes with salt for 10 minutes.
+    - Layer sauce, eggplant, mozzarella, parmesan and basil in a dish.
+    - Bake 25 minutes until bubbling.
+
+- slug: ratatouille
+  title: Ratatouille
+  meal: dinner
+  cuisine: French
+  servings: 4
+  prep: 20
+  cook: 40
+  description: Provençal stew of eggplant, peppers, tomatoes and herbs.
+  ingredients:
+    - 1 piece eggplant | cubed
+    - 2 piece bell_pepper | chopped
+    - 4 piece tomato | chopped
+    - 1 piece onion | chopped
+    - 3 clove garlic | sliced
+    - 4 tbsp olive_oil
+    - 5 g basil | garnish
+    - 1 tsp dried_oregano
+    - 1 pinch salt
+  steps:
+    - Brown the eggplant in half the oil and set aside.
+    - Cook the onion and peppers in the remaining oil for 8 minutes, add the garlic.
+    - Add the tomatoes, oregano, salt and eggplant and simmer 25 minutes.
+    - Finish with torn basil.
+
+- slug: pasta-alla-norma
+  title: Pasta alla Norma
+  meal: dinner
+  cuisine: Italian
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Sicilian pasta with fried eggplant, tomato and basil.
+  ingredients:
+    - 350 g pasta
+    - 1 piece eggplant | cubed
+    - 600 g canned_tomatoes
+    - 3 clove garlic | sliced
+    - 5 g basil
+    - 40 g parmesan | grated
+    - 4 tbsp olive_oil
+    - 1 pinch chili_flakes
+    - 1 pinch salt
+  steps:
+    - Fry the eggplant in the oil until deep golden, about 10 minutes.
+    - Add the garlic and chili, then the tomatoes, and simmer 15 minutes.
+    - Cook the pasta and toss with the sauce and basil.
+    - Top with parmesan.
+
+- slug: garlic-eggplant-stir-fry
+  title: Garlic Eggplant Stir-Fry
+  meal: dinner
+  cuisine: Chinese
+  servings: 3
+  prep: 10
+  cook: 15
+  description: Soft, glossy eggplant in a sweet garlic-soy sauce.
+  ingredients:
+    - 2 piece eggplant | cut in batons
+    - 5 clove garlic | minced
+    - 10 g ginger | grated
+    - 3 tbsp soy_sauce
+    - 1 tbsp honey
+    - 1 tbsp vinegar
+    - 3 tbsp cooking_oil
+    - 2 piece green_onion | garnish
+    - 200 g rice | supporting | to serve
+  steps:
+    - Stir-fry the eggplant in the oil over high heat for 8 minutes until soft.
+    - Add the garlic and ginger and cook 1 minute.
+    - Stir in the soy sauce, honey and vinegar and toss until glossy.
+    - Serve over rice with green onion.
+
+- slug: stuffed-bell-peppers
+  title: Stuffed Bell Peppers
+  meal: dinner
+  cuisine: American
+  servings: 4
+  prep: 20
+  cook: 40
+  description: Peppers filled with beef, rice and tomato, topped with cheese.
+  ingredients:
+    - 4 piece bell_pepper | tops cut off, seeded
+    - 400 g ground_beef
+    - 100 g rice
+    - 1 piece onion | diced
+    - 2 clove garlic | minced
+    - 400 g canned_tomatoes
+    - 80 g cheese | grated
+    - 1 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 190°C (375°F). Cook the rice.
+    - Brown the beef with the onion and garlic in the oil.
+    - Stir in the rice, half the tomatoes and salt.
+    - Fill the peppers, stand them in a dish with the remaining tomatoes and bake 30 minutes.
+    - Top with cheese and bake 5 minutes more.
+
+- slug: chicken-fajitas
+  title: Chicken Fajitas
+  meal: dinner
+  cuisine: Mexican
+  servings: 4
+  prep: 15
+  cook: 15
+  description: Citrus-spiced chicken with charred peppers and onions in warm tortillas.
+  ingredients:
+    - 500 g chicken | strips
+    - 2 piece bell_pepper | sliced
+    - 1 piece onion | sliced
+    - 8 piece tortilla
+    - 1 piece lemon | lime, juiced
+    - 1 piece orange | supporting | juiced
+    - 2 tsp cumin
+    - 2 tsp paprika
+    - 2 tbsp cooking_oil
+    - 60 g sour_cream | garnish
+  steps:
+    - Toss the chicken with the citrus juices, cumin and paprika and rest 10 minutes.
+    - Sear the chicken in hot oil for 6 minutes and remove.
+    - Cook the peppers and onion over high heat for 5 minutes until charred.
+    - Return the chicken, then serve in warm tortillas with sour cream.
+
+- slug: beef-tacos
+  title: Ground Beef Tacos
+  meal: dinner
+  cuisine: Mexican
+  servings: 4
+  prep: 15
+  cook: 15
+  description: Spiced beef tacos with lettuce, tomato and cheese.
+  ingredients:
+    - 500 g ground_beef
+    - 8 piece tortilla
+    - 1 piece onion | diced
+    - 2 piece tomato | diced
+    - 60 g leafy_greens | shredded lettuce
+    - 80 g cheese | grated
+    - 2 tsp cumin
+    - 1 tsp chili_flakes
+    - 1 tbsp cooking_oil
+  steps:
+    - Cook the onion in the oil for 4 minutes, then add the beef and brown.
+    - Stir in the cumin, chili and 4 tablespoons of water and simmer 5 minutes.
+    - Warm the tortillas.
+    - Fill with beef, lettuce, tomato and cheese.
+
+- slug: cauliflower-chickpea-tacos
+  title: Roasted Cauliflower Chickpea Tacos
+  meal: dinner
+  cuisine: Mexican
+  servings: 4
+  prep: 15
+  cook: 25
+  description: Smoky roasted cauliflower and chickpeas with citrus cabbage slaw.
+  ingredients:
+    - 500 g cauliflower | small florets
+    - 240 g canned_chickpeas | drained
+    - 8 piece tortilla
+    - 150 g cabbage | supporting | shredded
+    - 0.5 piece orange | supporting | juiced
+    - 1 piece lemon | lime, juiced
+    - 120 g yogurt
+    - 2 tsp cumin
+    - 2 tsp paprika
+    - 3 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 220°C (425°F). Toss the cauliflower and chickpeas with oil, spices and salt.
+    - Roast 25 minutes until browned.
+    - Toss the cabbage with the orange and half the lime juice.
+    - Mix the yogurt with the remaining lime juice.
+    - Fill warm tortillas with the cauliflower, slaw and yogurt sauce.
+
+- slug: egg-roll-in-a-bowl
+  title: Egg Roll in a Bowl
+  meal: dinner
+  cuisine: Asian
+  servings: 4
+  prep: 10
+  cook: 15
+  description: All the flavour of an egg roll as a quick beef and cabbage stir-fry.
+  ingredients:
+    - 450 g ground_beef
+    - 500 g cabbage | shredded
+    - 2 piece carrot | grated
+    - 3 clove garlic | minced
+    - 10 g ginger | grated
+    - 3 tbsp soy_sauce
+    - 1 tbsp sesame_oil
+    - 2 piece green_onion | garnish
+  steps:
+    - Brown the beef in a large pan.
+    - Add the garlic and ginger for 1 minute.
+    - Add the cabbage and carrot and stir-fry 6 minutes until tender-crisp.
+    - Stir in the soy sauce and sesame oil and top with green onion.
+
+- slug: okonomiyaki
+  title: Okonomiyaki
+  meal: dinner
+  cuisine: Japanese
+  servings: 2
+  prep: 15
+  cook: 15
+  difficulty: medium
+  description: Savory Japanese cabbage pancakes topped with mayo.
+  ingredients:
+    - 300 g cabbage | finely shredded
+    - 2 piece egg
+    - 100 g flour
+    - 2 piece green_onion | sliced
+    - 3 slice bacon | supporting
+    - 120 ml chicken_broth | supporting | or water
+    - 2 tbsp cooking_oil
+    - 20 g mayonnaise | garnish
+    - 20 g ketchup | garnish
+  steps:
+    - Whisk the flour, eggs and broth to a smooth batter, then fold in the cabbage and green onion.
+    - Heat the oil and spread half the batter in a thick round. Lay bacon on top.
+    - Cook 5 minutes per side until golden and cooked through.
+    - Drizzle with mayonnaise and ketchup.
+
+- slug: colcannon
+  title: Colcannon
+  meal: dinner
+  cuisine: Irish
+  servings: 4
+  prep: 15
+  cook: 25
+  description: Buttery mashed potatoes folded with cabbage and green onion.
+  ingredients:
+    - 4 piece potato | peeled and chopped
+    - 300 g cabbage | shredded
+    - 60 g butter
+    - 150 ml milk
+    - 3 piece green_onion | sliced
+    - 1 pinch salt
+  steps:
+    - Boil the potatoes for 15 minutes until tender, then drain.
+    - Cook the cabbage in half the butter for 6 minutes.
+    - Warm the milk with the green onion.
+    - Mash the potatoes with the milk and remaining butter, then fold in the cabbage.
+
+- slug: cabbage-bacon-skillet
+  title: Cabbage and Bacon Skillet
+  meal: dinner
+  cuisine: American
+  servings: 4
+  prep: 10
+  cook: 20
+  description: Smoky bacon, sweet onion and apple with tender cabbage.
+  ingredients:
+    - 600 g cabbage | chopped
+    - 5 slice bacon | chopped
+    - 1 piece onion | sliced
+    - 1 piece apple | supporting | sliced
+    - 2 clove garlic | minced
+    - 1 tbsp vinegar
+    - 1 pinch black_pepper
+  steps:
+    - Cook the bacon until crisp, then remove, leaving the fat.
+    - Cook the onion and apple in the fat for 5 minutes, add the garlic.
+    - Add the cabbage and cook 10 minutes, stirring, until tender.
+    - Stir in the vinegar, pepper and bacon.
+
+- slug: chicken-yakisoba
+  title: Chicken Yakisoba
+  meal: dinner
+  cuisine: Japanese
+  servings: 3
+  prep: 15
+  cook: 12
+  description: Stir-fried noodles with chicken, cabbage and carrot in a tangy sauce.
+  ingredients:
+    - 250 g egg_noodles
+    - 300 g chicken | thinly sliced
+    - 250 g cabbage | shredded
+    - 1 piece carrot | julienned
+    - 0.5 piece onion | sliced
+    - 3 tbsp soy_sauce
+    - 30 g ketchup
+    - 1 tsp sugar
+    - 2 tbsp cooking_oil
+  steps:
+    - Cook the noodles and drain.
+    - Stir-fry the chicken in the oil for 5 minutes.
+    - Add the onion, cabbage and carrot and stir-fry 4 minutes.
+    - Mix the soy sauce, ketchup and sugar, add with the noodles, and toss until coated.
+
+- slug: mushroom-risotto
+  title: Mushroom Risotto
+  meal: dinner
+  cuisine: Italian
+  servings: 4
+  prep: 10
+  cook: 35
+  difficulty: medium
+  description: Creamy rice slowly cooked with mushrooms and parmesan.
+  ingredients:
+    - 300 g rice | arborio if you have it
+    - 300 g mushroom | sliced
+    - 1 piece onion | finely diced
+    - 2 clove garlic | minced
+    - 1200 ml chicken_broth | hot
+    - 40 g butter
+    - 50 g parmesan | grated
+    - 1 tbsp olive_oil
+  steps:
+    - Fry the mushrooms in the oil and half the butter until golden, then set aside.
+    - Soften the onion and garlic, add the rice and stir 2 minutes.
+    - Add the broth a ladle at a time, stirring, until creamy and tender, about 20 minutes.
+    - Stir in the mushrooms, remaining butter and parmesan.
+
+- slug: mushroom-stroganoff
+  title: Mushroom Stroganoff
+  meal: dinner
+  cuisine: Russian
+  servings: 4
+  prep: 10
+  cook: 20
+  description: Mushrooms in a creamy paprika sauce over buttered noodles.
+  ingredients:
+    - 500 g mushroom | sliced
+    - 300 g egg_noodles
+    - 1 piece onion | sliced
+    - 2 clove garlic | minced
+    - 150 g sour_cream
+    - 30 g butter
+    - 1 tsp paprika
+    - 200 ml chicken_broth | supporting | or water
+    - 5 g parsley | garnish
+  steps:
+    - Cook the noodles.
+    - Fry the mushrooms in the butter until browned, then add the onion and garlic for 4 minutes.
+    - Add the paprika and broth and simmer 5 minutes.
+    - Stir in the sour cream off the heat and serve over noodles with parsley.
+
+- slug: creamy-chicken-mushroom-skillet
+  title: Creamy Chicken and Mushroom Skillet
+  meal: dinner
+  cuisine: French
+  servings: 4
+  prep: 10
+  cook: 25
+  description: Seared chicken in a garlic mushroom cream sauce with spinach.
+  ingredients:
+    - 600 g chicken | breasts
+    - 250 g mushroom | sliced
+    - 3 clove garlic | minced
+    - 200 ml heavy_cream
+    - 20 g butter
+    - 60 g leafy_greens | supporting | spinach
+    - 1 tbsp olive_oil
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Season the chicken and sear in the oil for 6 minutes per side, then rest.
+    - Melt the butter and brown the mushrooms, add the garlic.
+    - Add the cream and simmer 3 minutes, then stir in the spinach.
+    - Return the chicken to the pan and spoon over the sauce.
+
+- slug: shepherds-pie
+  title: Shepherd's Pie
+  meal: dinner
+  cuisine: British
+  servings: 4
+  prep: 25
+  cook: 45
+  difficulty: medium
+  description: Savory beef and vegetables under a golden mashed potato crust.
+  ingredients:
+    - 500 g ground_beef
+    - 4 piece potato | peeled and chopped
+    - 2 piece carrot | diced
+    - 100 g peas
+    - 1 piece onion | diced
+    - 40 g butter
+    - 100 ml milk
+    - 200 g canned_tomatoes | supporting
+    - 1 pinch salt
+  steps:
+    - Boil the potatoes 15 minutes, then mash with the butter, milk and salt.
+    - Brown the beef with the onion and carrot.
+    - Add the tomatoes and peas and simmer 10 minutes.
+    - Spread the filling in a dish, top with mash and bake at 200°C (400°F) for 20 minutes.
+
+- slug: sheet-pan-chicken-potatoes
+  title: Sheet Pan Chicken and Potatoes
+  meal: dinner
+  cuisine: American
+  servings: 4
+  prep: 15
+  cook: 40
+  description: Lemony paprika chicken roasted with potatoes, carrots and onion.
+  ingredients:
+    - 700 g chicken | thighs
+    - 4 piece potato | cut in wedges
+    - 2 piece carrot | chunks
+    - 1 piece onion | wedges
+    - 4 clove garlic
+    - 1 piece lemon | sliced
+    - 2 tsp paprika
+    - 3 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 220°C (425°F).
+    - Toss everything with the oil, paprika and salt on a large tray.
+    - Roast 35 to 40 minutes until the chicken is cooked through and the potatoes are crisp.
+
+- slug: lemon-garlic-chicken
+  title: Lemon Garlic Butter Chicken
+  meal: dinner
+  cuisine: American
+  servings: 4
+  prep: 10
+  cook: 20
+  description: Pan-seared chicken in a bright lemon garlic butter sauce.
+  ingredients:
+    - 600 g chicken | breasts, halved horizontally
+    - 1 piece lemon | juiced and zested
+    - 4 clove garlic | minced
+    - 40 g butter
+    - 1 tbsp olive_oil
+    - 60 g leafy_greens | supporting | to serve
+    - 5 g parsley | garnish
+    - 1 pinch salt
+  steps:
+    - Season the chicken and sear in the oil for 5 minutes per side, then remove.
+    - Melt the butter, cook the garlic 1 minute, then add the lemon juice and zest.
+    - Return the chicken and spoon over the sauce.
+    - Serve on greens with parsley.
+
+- slug: orange-glazed-chicken
+  title: Orange Glazed Chicken
+  meal: dinner
+  cuisine: Chinese-American
+  servings: 4
+  prep: 10
+  cook: 20
+  description: Crisp chicken bites in a sticky orange, honey and soy glaze.
+  ingredients:
+    - 600 g chicken | cubed
+    - 2 piece orange | juiced and zested
+    - 3 tbsp soy_sauce
+    - 2 tbsp honey
+    - 2 clove garlic | minced
+    - 10 g ginger | grated
+    - 2 tbsp cooking_oil
+    - 250 g rice | supporting | to serve
+    - 2 piece green_onion | garnish
+  steps:
+    - Brown the chicken in the oil for 8 minutes.
+    - Add the garlic and ginger for 1 minute.
+    - Add the orange juice, zest, soy sauce and honey and simmer until sticky, about 6 minutes.
+    - Serve over rice with green onion.
+
+- slug: broccoli-garlic-pasta
+  title: Garlic Broccoli Pasta
+  meal: dinner
+  cuisine: Italian
+  servings: 4
+  prep: 10
+  cook: 15
+  description: Pasta tossed with garlicky broccoli, chili, lemon and parmesan.
+  ingredients:
+    - 350 g pasta
+    - 400 g broccoli | small florets
+    - 4 clove garlic | sliced
+    - 0.5 piece lemon | zested and juiced
+    - 50 g parmesan | grated
+    - 4 tbsp olive_oil
+    - 1 pinch chili_flakes
+  steps:
+    - Cook the pasta, adding the broccoli for the last 4 minutes. Reserve a cup of water.
+    - Gently cook the garlic and chili in the oil for 2 minutes.
+    - Toss the pasta and broccoli with the garlic oil, lemon, parmesan and a splash of water.
+
+- slug: cauliflower-mac-and-cheese
+  title: Cauliflower Mac and Cheese
+  meal: dinner
+  cuisine: American
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Creamy cheddar macaroni with tender cauliflower, baked until golden.
+  ingredients:
+    - 250 g pasta | macaroni
+    - 400 g cauliflower | small florets
+    - 200 g cheese | cheddar, grated
+    - 500 ml milk
+    - 40 g butter
+    - 40 g flour
+    - 1 tsp mustard | supporting
+  steps:
+    - Cook the macaroni with the cauliflower for 8 minutes, then drain.
+    - Melt the butter, stir in the flour for 1 minute, then whisk in the milk until thick.
+    - Stir in the mustard and most of the cheese.
+    - Combine with the pasta, top with the remaining cheese and bake at 200°C (400°F) for 15 minutes.
+
+- slug: cauliflower-chickpea-curry
+  title: Cauliflower Chickpea Curry
+  meal: dinner
+  cuisine: Indian
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Hearty vegan curry of cauliflower and chickpeas in coconut tomato sauce.
+  ingredients:
+    - 500 g cauliflower | florets
+    - 240 g canned_chickpeas | drained
+    - 1 piece onion | diced
+    - 2 piece tomato | chopped
+    - 3 clove garlic | minced
+    - 400 ml coconut_milk
+    - 2 tbsp curry_powder
+    - 2 tbsp cooking_oil
+    - 250 g rice | supporting | to serve
+  steps:
+    - Cook the onion and garlic in the oil for 5 minutes, then add the curry powder.
+    - Add the cauliflower, tomatoes and coconut milk and simmer 15 minutes.
+    - Add the chickpeas and cook 5 minutes more.
+    - Serve with rice.
+
+- slug: spinach-mushroom-lasagna
+  title: Spinach Mushroom Lasagna
+  meal: dinner
+  cuisine: Italian
+  servings: 6
+  prep: 30
+  cook: 45
+  difficulty: medium
+  description: Layers of pasta, tomato sauce, mushrooms, spinach and melted cheese.
+  ingredients:
+    - 300 g pasta | lasagna sheets
+    - 400 g mushroom | sliced
+    - 150 g leafy_greens | spinach
+    - 800 g canned_tomatoes
+    - 250 g cheese | mozzarella, grated
+    - 50 g parmesan | grated
+    - 1 piece onion | diced
+    - 3 clove garlic | minced
+    - 3 tbsp olive_oil
+    - 1 tsp dried_oregano
+  steps:
+    - Simmer the onion, garlic, tomatoes and oregano in 1 tablespoon of oil for 15 minutes.
+    - Fry the mushrooms in the remaining oil, then wilt in the spinach.
+    - Layer sauce, pasta, vegetables and cheese three times, ending with sauce and cheese.
+    - Cover with foil and bake at 190°C (375°F) for 30 minutes, then uncovered for 15.
+
+- slug: tomato-basil-pasta
+  title: Fresh Tomato Basil Pasta
+  meal: dinner
+  cuisine: Italian
+  servings: 4
+  prep: 10
+  cook: 15
+  description: Quick sauce of fresh tomatoes, garlic, basil and olive oil.
+  ingredients:
+    - 350 g pasta
+    - 6 piece tomato | chopped
+    - 4 clove garlic | sliced
+    - 10 g basil
+    - 4 tbsp olive_oil
+    - 40 g parmesan | supporting | grated
+    - 1 pinch salt
+  steps:
+    - Cook the pasta.
+    - Cook the garlic in the oil for 1 minute, add the tomatoes and salt and cook 6 minutes.
+    - Toss with the pasta and torn basil and top with parmesan.
+
+- slug: pasta-primavera
+  title: Pasta Primavera
+  meal: dinner
+  cuisine: Italian-American
+  servings: 4
+  prep: 15
+  cook: 15
+  description: Pasta with a medley of spring vegetables, garlic and parmesan.
+  ingredients:
+    - 350 g pasta
+    - 200 g broccoli | florets
+    - 1 piece carrot | thinly sliced
+    - 1 piece bell_pepper | sliced
+    - 3 clove garlic | minced
+    - 80 g peas | supporting
+    - 50 g parmesan | grated
+    - 4 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Cook the pasta, reserving a cup of the cooking water.
+    - Sauté the carrot, broccoli and pepper in the oil for 5 minutes, add the garlic and peas.
+    - Toss with the pasta, parmesan and a splash of the water.
+
+- slug: peanut-noodles
+  title: Peanut Noodles with Cucumber
+  meal: dinner
+  cuisine: Asian
+  servings: 3
+  prep: 15
+  cook: 8
+  description: Noodles in a creamy peanut-lime sauce with crunchy cucumber and carrot.
+  ingredients:
+    - 250 g egg_noodles
+    - 0.5 piece cucumber | julienned
+    - 1 piece carrot | julienned
+    - 80 g peanut_butter
+    - 3 tbsp soy_sauce
+    - 1 piece lemon | lime, juiced
+    - 1 clove garlic | grated
+    - 1 tbsp honey
+    - 2 piece green_onion | garnish
+  steps:
+    - Cook the noodles, rinse in cold water and drain.
+    - Whisk the peanut butter, soy sauce, lime juice, garlic, honey and 3 tablespoons of warm water.
+    - Toss the noodles with the sauce, cucumber and carrot.
+    - Top with green onion.
+
+- slug: tofu-vegetable-stir-fry
+  title: Tofu Vegetable Stir-Fry
+  meal: dinner
+  cuisine: Chinese
+  servings: 3
+  prep: 15
+  cook: 15
+  description: Crispy tofu with broccoli, pepper and mushrooms in garlic-ginger sauce.
+  ingredients:
+    - 400 g tofu | pressed and cubed
+    - 250 g broccoli | florets
+    - 1 piece bell_pepper | sliced
+    - 120 g mushroom | supporting | sliced
+    - 3 clove garlic | minced
+    - 10 g ginger | grated
+    - 3 tbsp soy_sauce
+    - 3 tbsp cooking_oil
+    - 200 g rice | supporting | to serve
+  steps:
+    - Fry the tofu in 2 tablespoons of oil until golden on all sides, then remove.
+    - Stir-fry the vegetables in the remaining oil for 5 minutes.
+    - Add the garlic and ginger, return the tofu and toss with the soy sauce.
+    - Serve over rice.
+
+- slug: black-bean-chili
+  title: Black Bean Chili
+  meal: dinner
+  cuisine: Tex-Mex
+  servings: 4
+  prep: 15
+  cook: 35
+  description: Smoky vegetarian chili with peppers and black beans.
+  ingredients:
+    - 480 g canned_black_beans | drained
+    - 1 piece onion | diced
+    - 2 piece bell_pepper | diced
+    - 3 clove garlic | minced
+    - 800 g canned_tomatoes
+    - 2 tsp cumin
+    - 2 tsp paprika
+    - 1 tsp chili_flakes
+    - 2 tbsp cooking_oil
+    - 60 g cheese | garnish
+    - 60 g sour_cream | garnish
+  steps:
+    - Cook the onion and peppers in the oil for 8 minutes, then add the garlic and spices.
+    - Add the beans and tomatoes and simmer 25 minutes.
+    - Serve topped with cheese and sour cream.
+
+- slug: beef-chili
+  title: Classic Beef Chili
+  meal: dinner
+  cuisine: Tex-Mex
+  servings: 6
+  prep: 15
+  cook: 60
+  description: Rich beef and bean chili simmered with peppers and spices.
+  ingredients:
+    - 600 g ground_beef
+    - 480 g canned_black_beans | drained
+    - 1 piece onion | diced
+    - 1 piece bell_pepper | diced
+    - 3 clove garlic | minced
+    - 800 g canned_tomatoes
+    - 2 tsp cumin
+    - 2 tsp chili_flakes
+    - 1 tbsp cooking_oil
+    - 60 g cheese | garnish
+  steps:
+    - Brown the beef in the oil, then add the onion, pepper and garlic for 5 minutes.
+    - Stir in the spices for 1 minute.
+    - Add the tomatoes and beans and simmer 45 minutes, stirring now and then.
+    - Serve with grated cheese.
+
+- slug: red-lentil-dal
+  title: Red Lentil Dal
+  meal: dinner
+  cuisine: Indian
+  servings: 4
+  prep: 10
+  cook: 30
+  description: Comforting spiced lentils with tomato, garlic and ginger.
+  ingredients:
+    - 250 g lentils | rinsed
+    - 1 piece onion | diced
+    - 2 piece tomato | chopped
+    - 3 clove garlic | minced
+    - 10 g ginger | grated
+    - 1 tbsp curry_powder
+    - 1 tsp cumin
+    - 2 tbsp cooking_oil
+    - 5 g cilantro | garnish
+    - 250 g rice | supporting | to serve
+    - 1 pinch salt
+  steps:
+    - Simmer the lentils in 900 ml water for 20 minutes until soft.
+    - Cook the onion in the oil for 6 minutes, add the garlic, ginger and spices, then the tomatoes.
+    - Stir the tomato mixture through the lentils and simmer 5 minutes.
+    - Season and serve with rice and cilantro.
+
+- slug: yogurt-chicken-skewers
+  title: Yogurt Marinated Chicken Skewers
+  meal: dinner
+  cuisine: Middle Eastern
+  servings: 4
+  prep: 20
+  cook: 15
+  description: Juicy chicken skewers in a lemon-garlic yogurt marinade with peppers and onion.
+  ingredients:
+    - 600 g chicken | cubed
+    - 150 g yogurt
+    - 1 piece lemon | juiced
+    - 3 clove garlic | grated
+    - 1 piece bell_pepper | chunks
+    - 1 piece onion | chunks
+    - 2 tsp paprika
+    - 1 tsp cumin
+    - 1 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Mix the yogurt, lemon, garlic, spices, oil and salt, and marinate the chicken 30 minutes or more.
+    - Thread the chicken, pepper and onion onto skewers.
+    - Grill or broil 12 to 15 minutes, turning, until charred and cooked through.
+
+- slug: spanish-potato-omelette
+  title: Spanish Potato Omelette
+  meal: dinner
+  cuisine: Spanish
+  servings: 4
+  prep: 15
+  cook: 30
+  difficulty: medium
+  description: Thick tortilla española of slow-cooked potato, onion and egg.
+  ingredients:
+    - 3 piece potato | peeled and thinly sliced
+    - 6 piece egg
+    - 1 piece onion | thinly sliced
+    - 4 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Gently cook the potato and onion in the oil over low heat for 20 minutes until soft, stirring often.
+    - Beat the eggs with salt and mix in the potatoes.
+    - Cook in a small pan over low heat for 6 minutes until the edges set.
+    - Flip onto a plate, slide back in and cook 3 minutes more.
+
+- slug: cheeseburgers
+  title: Classic Cheeseburgers
+  meal: dinner
+  cuisine: American
+  servings: 4
+  prep: 15
+  cook: 10
+  description: Juicy beef patties with melted cheese, lettuce, tomato and onion.
+  ingredients:
+    - 500 g ground_beef
+    - 8 slice bread | or 4 burger buns
+    - 80 g cheese | slices
+    - 1 piece tomato | sliced
+    - 40 g leafy_greens | lettuce
+    - 0.5 piece onion | sliced
+    - 40 g ketchup | supporting
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Shape the beef as four patties and season well.
+    - Cook in a hot pan 3 to 4 minutes per side, adding the cheese for the last minute.
+    - Toast the bread.
+    - Build the burgers with lettuce, tomato, onion and ketchup.
+
+- slug: chicken-parmesan
+  title: Chicken Parmesan
+  meal: dinner
+  cuisine: Italian-American
+  servings: 4
+  prep: 20
+  cook: 30
+  difficulty: medium
+  description: Crispy breaded chicken with tomato sauce and melted mozzarella.
+  ingredients:
+    - 600 g chicken | breasts, pounded thin
+    - 2 piece egg | beaten
+    - 100 g breadcrumbs
+    - 400 g canned_tomatoes
+    - 150 g cheese | mozzarella, grated
+    - 40 g parmesan | grated
+    - 4 tbsp olive_oil
+    - 250 g pasta | supporting | to serve
+    - 1 pinch salt
+  steps:
+    - Dip the chicken in egg, then breadcrumbs mixed with half the parmesan.
+    - Fry in the oil for 4 minutes per side until golden.
+    - Simmer the tomatoes with salt for 10 minutes and spoon over the chicken in a dish.
+    - Top with mozzarella and remaining parmesan and bake at 200°C (400°F) for 12 minutes.
+    - Serve with pasta.
+
+- slug: greek-chicken-bowl
+  title: Greek Chicken Rice Bowl
+  meal: dinner
+  cuisine: Greek
+  servings: 4
+  prep: 20
+  cook: 20
+  description: Oregano-lemon chicken over rice with cucumber, tomato and tzatziki.
+  ingredients:
+    - 600 g chicken
+    - 250 g rice
+    - 0.5 piece cucumber | diced, plus a little grated for the sauce
+    - 2 piece tomato | diced
+    - 0.5 piece onion | red onion, thinly sliced
+    - 200 g yogurt
+    - 1 piece lemon | juiced
+    - 1 clove garlic | grated
+    - 1 tsp dried_oregano
+    - 2 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Marinate the chicken in half the lemon juice, the oil, oregano and salt for 15 minutes.
+    - Cook the rice. Grill or pan-fry the chicken 6 minutes per side and slice.
+    - Mix the yogurt, grated cucumber, garlic and remaining lemon for the tzatziki.
+    - Build bowls of rice, chicken, cucumber, tomato and onion with tzatziki.

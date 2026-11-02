@@ -1,0 +1,310 @@
+# Snack recipes. Line format: "<qty> <unit> <ingredient slug> | <role> | <note>" (role and note optional).
+
+- slug: baba-ganoush
+  title: Baba Ganoush
+  meal: snack
+  cuisine: Middle Eastern
+  servings: 4
+  prep: 10
+  cook: 40
+  description: Smoky roasted eggplant dip with garlic, lemon and olive oil.
+  ingredients:
+    - 2 piece eggplant
+    - 2 clove garlic | grated
+    - 1 piece lemon | juiced
+    - 3 tbsp olive_oil
+    - 5 g parsley | garnish
+    - 1 pinch salt
+  steps:
+    - Roast the whole eggplants at 230°C (450°F) for 35 to 40 minutes until collapsed.
+    - Scoop out the flesh and drain in a sieve for 10 minutes.
+    - Mash with the garlic, lemon juice, 2 tablespoons of oil and salt.
+    - Drizzle with the remaining oil and parsley. Serve with bread or vegetables.
+
+- slug: tzatziki
+  title: Tzatziki
+  meal: snack
+  cuisine: Greek
+  servings: 4
+  prep: 10
+  cook: 0
+  description: Cool yogurt and cucumber dip with garlic and lemon.
+  ingredients:
+    - 250 g yogurt
+    - 0.5 piece cucumber | grated and squeezed dry
+    - 1 clove garlic | grated
+    - 0.25 piece lemon | juiced
+    - 1 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Squeeze the grated cucumber to remove excess water.
+    - Stir together with the yogurt, garlic, lemon juice and salt.
+    - Drizzle with olive oil and chill before serving.
+
+- slug: guacamole
+  title: Guacamole
+  meal: snack
+  cuisine: Mexican
+  servings: 4
+  prep: 10
+  cook: 0
+  description: Chunky avocado dip with tomato, onion, lime and cilantro.
+  ingredients:
+    - 2 piece avocado
+    - 1 piece tomato | diced
+    - 0.25 piece onion | finely diced
+    - 1 piece lemon | lime, juiced
+    - 5 g cilantro | chopped
+    - 1 pinch salt
+  steps:
+    - Mash the avocados roughly with the lime juice and salt.
+    - Fold in the tomato, onion and cilantro.
+    - Taste and adjust the salt and lime.
+
+- slug: fruit-salad
+  title: Honey Lime Fruit Salad
+  meal: snack
+  cuisine: American
+  servings: 4
+  prep: 15
+  cook: 0
+  description: Apple, banana, orange and strawberries in a honey-lime dressing.
+  ingredients:
+    - 1 piece apple | diced
+    - 1 piece banana | sliced
+    - 2 piece orange | segmented
+    - 200 g strawberry | halved
+    - 0.5 piece lemon | lime, juiced
+    - 1 tbsp honey
+  steps:
+    - Whisk the lime juice and honey.
+    - Combine the fruit in a bowl and toss with the dressing.
+    - Chill 10 minutes before serving.
+
+- slug: banana-bread
+  title: Banana Bread
+  meal: snack
+  cuisine: American
+  servings: 10
+  prep: 15
+  cook: 60
+  description: Moist, tender loaf made with very ripe bananas.
+  ingredients:
+    - 3 piece banana | very ripe, mashed
+    - 2 piece egg
+    - 220 g flour
+    - 100 g butter | melted
+    - 120 g sugar
+    - 1 tsp baking_powder
+    - 0.5 tsp cinnamon
+    - 1 tsp vanilla_extract | supporting
+    - 40 g walnuts | garnish | chopped
+  steps:
+    - Heat the oven to 175°C (350°F) and line a loaf tin.
+    - Mix the bananas, melted butter, sugar, eggs and vanilla.
+    - Fold in the flour, baking powder and cinnamon until just combined.
+    - Pour the batter in the tin, top with walnuts and bake 55 to 60 minutes.
+
+- slug: apple-crisp
+  title: Apple Crisp
+  meal: snack
+  cuisine: American
+  servings: 6
+  prep: 15
+  cook: 40
+  description: Warm cinnamon apples under a buttery oat crumble.
+  ingredients:
+    - 4 piece apple | peeled and sliced
+    - 80 g oats
+    - 60 g flour
+    - 80 g butter | cold, cubed
+    - 80 g sugar
+    - 1 tsp cinnamon
+    - 0.5 piece lemon | supporting | juiced
+  steps:
+    - Heat the oven to 180°C (350°F).
+    - Toss the apples with the lemon juice, half the cinnamon and 1 tablespoon of sugar in a dish.
+    - Rub the butter with the oats, flour, remaining sugar and cinnamon until crumbly.
+    - Scatter over the apples and bake 35 to 40 minutes until golden and bubbling.
+
+- slug: creamy-coleslaw
+  title: Creamy Coleslaw
+  meal: snack
+  cuisine: American
+  servings: 6
+  prep: 15
+  cook: 0
+  description: Crunchy cabbage, carrot and apple in a tangy creamy dressing.
+  ingredients:
+    - 500 g cabbage | finely shredded
+    - 2 piece carrot | grated
+    - 1 piece apple | supporting | julienned
+    - 100 g mayonnaise
+    - 1 tbsp vinegar
+    - 1 tsp sugar
+    - 1 pinch salt
+  steps:
+    - Whisk the mayonnaise, vinegar, sugar and salt.
+    - Toss with the cabbage, carrot and apple.
+    - Chill 20 minutes before serving.
+
+- slug: stuffed-mushrooms
+  title: Cheesy Stuffed Mushrooms
+  meal: snack
+  cuisine: Italian-American
+  servings: 4
+  prep: 15
+  cook: 20
+  description: Mushroom caps filled with garlic, cheese and crispy breadcrumbs.
+  ingredients:
+    - 400 g mushroom | large, stems removed and chopped
+    - 60 g cheese | grated
+    - 2 clove garlic | minced
+    - 30 g breadcrumbs
+    - 20 g butter
+    - 5 g parsley | chopped
+  steps:
+    - Heat the oven to 200°C (400°F).
+    - Cook the chopped stems and garlic in the butter for 4 minutes.
+    - Mix with the cheese, breadcrumbs and parsley and pack it in the caps.
+    - Bake 15 to 18 minutes until golden.
+
+- slug: garlic-roasted-potatoes
+  title: Garlic Roasted Potatoes
+  meal: snack
+  cuisine: European
+  servings: 4
+  prep: 10
+  cook: 40
+  description: Crispy golden potatoes roasted with garlic and herbs.
+  ingredients:
+    - 4 piece potato | cut in chunks
+    - 4 clove garlic | smashed
+    - 3 tbsp olive_oil
+    - 1 tsp dried_oregano
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 220°C (425°F).
+    - Toss the potatoes with the oil, garlic, oregano and salt.
+    - Roast 35 to 40 minutes, turning once, until crisp.
+
+- slug: roasted-cauliflower-bites
+  title: Parmesan Roasted Cauliflower Bites
+  meal: snack
+  cuisine: Italian
+  servings: 4
+  prep: 10
+  cook: 25
+  description: Crispy cauliflower florets roasted with garlic, paprika and parmesan.
+  ingredients:
+    - 600 g cauliflower | florets
+    - 2 clove garlic | minced
+    - 30 g parmesan | grated
+    - 1 tsp paprika
+    - 3 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 220°C (425°F).
+    - Toss the cauliflower with the oil, garlic, paprika and salt.
+    - Roast 20 minutes, sprinkle with parmesan and roast 5 minutes more.
+
+- slug: bruschetta
+  title: Tomato Bruschetta
+  meal: snack
+  cuisine: Italian
+  servings: 4
+  prep: 15
+  cook: 5
+  description: Garlic-rubbed toast topped with fresh tomato and basil.
+  ingredients:
+    - 4 slice bread
+    - 3 piece tomato | finely diced
+    - 1 clove garlic | halved
+    - 5 g basil | chopped
+    - 2 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Mix the tomato, basil, 1 tablespoon of oil and salt and rest 10 minutes.
+    - Toast the bread and rub with the cut garlic.
+    - Drizzle with the remaining oil and spoon the tomatoes on top.
+
+- slug: orange-oat-muffins
+  title: Orange Oat Muffins
+  meal: snack
+  cuisine: American
+  servings: 12
+  prep: 15
+  cook: 22
+  description: Tender muffins with fresh orange juice, zest and oats.
+  ingredients:
+    - 2 piece orange | zested and juiced
+    - 100 g oats
+    - 180 g flour
+    - 1 piece egg
+    - 80 g butter | melted
+    - 100 g sugar
+    - 2 tsp baking_powder
+    - 120 ml milk
+  steps:
+    - Heat the oven to 190°C (375°F) and line a 12-cup muffin tin.
+    - Mix the oats, flour, sugar and baking powder.
+    - Whisk the egg, butter, milk, orange juice and zest, then stir in the dry mix.
+    - Fill the cups and bake 20 to 22 minutes.
+
+- slug: apple-banana-peanut-toast
+  title: Apple Banana Peanut Butter Toast
+  meal: snack
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 3
+  description: Toast spread with peanut butter and topped with apple, banana and honey.
+  ingredients:
+    - 1 slice bread
+    - 20 g peanut_butter
+    - 0.5 piece banana | sliced
+    - 0.25 piece apple | thinly sliced
+    - 1 tsp honey | supporting
+    - 1 pinch cinnamon
+  steps:
+    - Toast the bread and spread with peanut butter.
+    - Layer the banana and apple on top.
+    - Drizzle with honey and dust with cinnamon.
+
+- slug: veggie-sticks-yogurt-dip
+  title: Veggie Sticks with Herb Yogurt Dip
+  meal: snack
+  cuisine: American
+  servings: 4
+  prep: 15
+  cook: 0
+  description: Crunchy carrot, cucumber and pepper sticks with a garlicky herb dip.
+  ingredients:
+    - 2 piece carrot | cut in sticks
+    - 0.5 piece cucumber | cut in sticks
+    - 1 piece bell_pepper | cut in strips
+    - 200 g yogurt
+    - 1 clove garlic | grated
+    - 0.5 tsp dried_oregano
+    - 1 pinch salt
+  steps:
+    - Stir the yogurt with the garlic, oregano and salt.
+    - Arrange the vegetables around a bowl of the dip.
+
+- slug: strawberry-banana-yogurt-bites
+  title: Frozen Strawberry Banana Yogurt Bites
+  meal: snack
+  cuisine: American
+  servings: 6
+  prep: 15
+  cook: 0
+  description: Bite-size frozen yogurt drops with strawberry and banana.
+  ingredients:
+    - 250 g yogurt
+    - 100 g strawberry | finely chopped
+    - 1 piece banana | mashed
+    - 1 tbsp honey
+  steps:
+    - Mix the yogurt, banana and honey, then fold in the strawberries.
+    - Spoon small mounds onto a lined tray.
+    - Freeze at least 2 hours until firm.

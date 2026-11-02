@@ -1,0 +1,790 @@
+# Lunch recipes. Line format: "<qty> <unit> <ingredient slug> | <role> | <note>" (role and note optional).
+
+- slug: caprese-salad
+  title: Caprese Salad
+  meal: lunch
+  cuisine: Italian
+  servings: 2
+  prep: 10
+  cook: 0
+  description: Ripe tomatoes and fresh mozzarella with basil and olive oil.
+  ingredients:
+    - 3 piece tomato | sliced
+    - 125 g cheese | fresh mozzarella, sliced
+    - 5 g basil
+    - 2 tbsp olive_oil
+    - 1 tsp vinegar | supporting | balsamic if you have it
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Alternate slices of tomato and mozzarella on a plate.
+    - Tuck basil leaves between the slices.
+    - Drizzle with olive oil and vinegar and season with salt and pepper.
+
+- slug: greek-salad
+  title: Greek Salad
+  meal: lunch
+  cuisine: Greek
+  servings: 2
+  prep: 15
+  cook: 0
+  description: Chunky tomato, cucumber, pepper and onion salad with feta.
+  ingredients:
+    - 2 piece tomato | cut in wedges
+    - 0.5 piece cucumber | sliced
+    - 1 piece bell_pepper | sliced
+    - 0.5 piece onion | red onion, thinly sliced
+    - 100 g feta
+    - 3 tbsp olive_oil
+    - 0.5 piece lemon | supporting | juiced
+    - 0.5 tsp dried_oregano
+    - 1 pinch salt
+  steps:
+    - Combine the tomato, cucumber, pepper and onion in a bowl.
+    - Whisk the olive oil, lemon juice, oregano and salt.
+    - Toss the vegetables with the dressing and top with a slab of feta.
+
+- slug: chicken-caesar-wrap
+  title: Chicken Caesar Wrap
+  meal: lunch
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 12
+  description: Seared chicken and crisp lettuce in a creamy garlic-parmesan dressing.
+  ingredients:
+    - 2 piece tortilla
+    - 250 g chicken | breast
+    - 100 g leafy_greens | romaine, shredded
+    - 20 g parmesan | grated
+    - 40 g mayonnaise
+    - 0.5 piece lemon | juiced
+    - 1 clove garlic | grated
+    - 1 tbsp olive_oil
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Season the chicken and cook in the oil for 5 to 6 minutes per side, then slice.
+    - Mix the mayonnaise, lemon juice, garlic, half the parmesan and pepper.
+    - Toss the lettuce with the dressing and remaining parmesan.
+    - Fill the tortillas with lettuce and chicken and roll tightly.
+
+- slug: tuna-salad-sandwich
+  title: Tuna Salad Sandwich
+  meal: lunch
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 0
+  description: Classic creamy tuna salad with crunchy onion on bread.
+  ingredients:
+    - 4 slice bread
+    - 140 g tuna_canned | drained
+    - 40 g mayonnaise
+    - 0.25 piece onion | supporting | finely chopped
+    - 30 g leafy_greens | supporting
+    - 0.25 piece lemon | supporting | juiced
+    - 1 pinch black_pepper
+  steps:
+    - Flake the tuna and mix with the mayonnaise, onion, lemon juice and pepper.
+    - Spread onto two slices of bread.
+    - Top with lettuce and the remaining bread.
+
+- slug: egg-salad-sandwich
+  title: Egg Salad Sandwich
+  meal: lunch
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 10
+  description: Chopped hard-boiled eggs with mayonnaise and mustard.
+  ingredients:
+    - 4 piece egg
+    - 4 slice bread
+    - 30 g mayonnaise
+    - 1 tsp mustard
+    - 1 piece green_onion | supporting | sliced
+    - 30 g leafy_greens | supporting
+    - 1 pinch salt
+  steps:
+    - Boil the eggs for 10 minutes, cool in cold water and peel.
+    - Chop the eggs and mix with the mayonnaise, mustard, green onion and salt.
+    - Spread on bread with lettuce and close the sandwiches.
+
+- slug: grilled-cheese
+  title: Grilled Cheese Sandwich
+  meal: lunch
+  cuisine: American
+  servings: 1
+  prep: 2
+  cook: 8
+  description: Golden buttered bread around plenty of melted cheese.
+  ingredients:
+    - 2 slice bread
+    - 50 g cheese | sliced
+    - 10 g butter | softened
+  steps:
+    - Butter one side of each slice of bread.
+    - Place one slice butter-side down in a pan, add the cheese and top with the second slice, butter-side up.
+    - Cook over medium-low heat for 3 to 4 minutes per side until golden and melted.
+
+- slug: tomato-soup
+  title: Creamy Tomato Soup
+  meal: lunch
+  cuisine: American
+  servings: 4
+  prep: 10
+  cook: 30
+  description: Fresh tomatoes simmered with onion and garlic, blended with a splash of cream.
+  ingredients:
+    - 8 piece tomato | chopped
+    - 1 piece onion | chopped
+    - 2 clove garlic
+    - 20 g butter
+    - 100 ml heavy_cream | supporting
+    - 500 ml chicken_broth | supporting | or water
+    - 1 tsp sugar
+    - 4 g basil | garnish
+    - 1 pinch salt
+  steps:
+    - Melt the butter and soften the onion and garlic for 6 minutes.
+    - Add the tomatoes, broth, sugar and salt and simmer 20 minutes.
+    - Blend until smooth and stir in the cream.
+    - Serve topped with basil.
+
+- slug: potato-soup
+  title: Loaded Potato Soup
+  meal: lunch
+  cuisine: American
+  servings: 4
+  prep: 15
+  cook: 25
+  description: Thick, creamy potato soup topped with cheese and green onion.
+  ingredients:
+    - 4 piece potato | peeled and diced
+    - 1 piece onion | diced
+    - 2 clove garlic
+    - 500 ml chicken_broth
+    - 250 ml milk
+    - 30 g butter
+    - 60 g cheese | garnish | grated
+    - 1 piece green_onion | garnish | sliced
+    - 1 pinch salt
+  steps:
+    - Melt the butter and cook the onion and garlic for 5 minutes.
+    - Add the potatoes and broth and simmer 15 minutes until tender.
+    - Mash or blend half the soup, then stir in the milk and heat through.
+    - Season and top with cheese and green onion.
+
+- slug: carrot-ginger-soup
+  title: Carrot Ginger Soup
+  meal: lunch
+  cuisine: Fusion
+  servings: 4
+  prep: 15
+  cook: 25
+  description: Silky carrot soup with fresh ginger, orange and coconut milk.
+  ingredients:
+    - 8 piece carrot | sliced
+    - 1 piece onion | chopped
+    - 15 g ginger | grated
+    - 2 clove garlic
+    - 1 piece orange | supporting | juiced
+    - 200 ml coconut_milk | supporting
+    - 700 ml chicken_broth | supporting | or water
+    - 1 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Cook the onion, ginger and garlic in the oil for 5 minutes.
+    - Add the carrots and broth and simmer 20 minutes until soft.
+    - Blend with the coconut milk and orange juice until smooth.
+    - Season with salt.
+
+- slug: broccoli-cheddar-soup
+  title: Broccoli Cheddar Soup
+  meal: lunch
+  cuisine: American
+  servings: 4
+  prep: 10
+  cook: 25
+  description: Velvety cheddar soup packed with broccoli and carrot.
+  ingredients:
+    - 300 g broccoli | chopped
+    - 150 g cheese | cheddar, grated
+    - 1 piece onion | diced
+    - 1 piece carrot | supporting | grated
+    - 400 ml milk
+    - 400 ml chicken_broth
+    - 30 g butter
+    - 30 g flour
+  steps:
+    - Melt the butter, cook the onion 4 minutes, then stir in the flour for 1 minute.
+    - Whisk in the broth and milk and bring to a simmer.
+    - Add the broccoli and carrot and simmer 15 minutes.
+    - Stir in the cheese off the heat until melted.
+
+- slug: chicken-quesadilla
+  title: Chicken Quesadilla
+  meal: lunch
+  cuisine: Mexican
+  servings: 2
+  prep: 10
+  cook: 15
+  description: Crisp tortillas filled with spiced chicken, peppers and cheese.
+  ingredients:
+    - 2 piece tortilla
+    - 200 g chicken | thinly sliced
+    - 1 piece bell_pepper | sliced
+    - 0.5 piece onion | sliced
+    - 80 g cheese | grated
+    - 1 tsp cumin
+    - 1 tbsp cooking_oil
+  steps:
+    - Cook the chicken with the cumin in the oil for 6 minutes.
+    - Add the pepper and onion and cook 4 minutes.
+    - Fill half of each tortilla with the mixture and cheese, then fold.
+    - Toast in a dry pan 2 minutes per side until crisp.
+
+- slug: veggie-quesadilla
+  title: Black Bean Veggie Quesadilla
+  meal: lunch
+  cuisine: Mexican
+  servings: 2
+  prep: 10
+  cook: 12
+  description: Mushrooms, peppers and black beans melted together with cheese.
+  ingredients:
+    - 2 piece tortilla
+    - 80 g cheese | grated
+    - 100 g mushroom | sliced
+    - 1 piece bell_pepper | diced
+    - 0.5 piece onion | diced
+    - 120 g canned_black_beans | drained
+    - 1 tbsp cooking_oil
+    - 0.5 tsp cumin
+  steps:
+    - Cook the mushrooms, pepper and onion in the oil for 6 minutes.
+    - Stir in the beans and cumin and mash lightly.
+    - Fill the tortillas with the vegetables and cheese and fold.
+    - Toast 2 minutes per side.
+
+- slug: chickpea-cucumber-salad
+  title: Chickpea Cucumber Salad
+  meal: lunch
+  cuisine: Mediterranean
+  servings: 2
+  prep: 10
+  cook: 0
+  description: A bright, protein-rich salad with lemon and parsley.
+  ingredients:
+    - 240 g canned_chickpeas | drained
+    - 0.5 piece cucumber | diced
+    - 2 piece tomato | diced
+    - 0.25 piece onion | red onion, finely diced
+    - 0.5 piece lemon | juiced
+    - 10 g parsley | chopped
+    - 2 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Combine the chickpeas, cucumber, tomato and onion.
+    - Dress with lemon juice, olive oil and salt.
+    - Fold in the parsley.
+
+- slug: asian-chicken-slaw
+  title: Asian Chicken Slaw
+  meal: lunch
+  cuisine: Asian
+  servings: 2
+  prep: 15
+  cook: 12
+  description: Crunchy cabbage and carrot with chicken in a sesame-soy dressing.
+  ingredients:
+    - 250 g cabbage | finely shredded
+    - 1 piece carrot | grated
+    - 250 g chicken
+    - 2 piece green_onion | sliced
+    - 2 tbsp soy_sauce
+    - 1 tbsp sesame_oil
+    - 1 tbsp vinegar
+    - 1 tsp honey
+    - 1 tbsp cooking_oil
+  steps:
+    - Cook the chicken in the cooking oil for 5 to 6 minutes per side, rest and shred.
+    - Whisk the soy sauce, sesame oil, vinegar and honey.
+    - Toss the cabbage, carrot, green onion and chicken with the dressing.
+
+- slug: egg-fried-rice
+  title: Egg Fried Rice
+  meal: lunch
+  cuisine: Chinese
+  servings: 2
+  prep: 10
+  cook: 10
+  description: Quick fried rice with egg, peas and carrot.
+  ingredients:
+    - 150 g rice | cooked and cooled, ideally day-old
+    - 2 piece egg
+    - 60 g peas
+    - 1 piece carrot | finely diced
+    - 0.5 piece onion | diced
+    - 2 tbsp soy_sauce
+    - 2 tbsp cooking_oil
+    - 1 piece green_onion | garnish
+  steps:
+    - Heat the oil in a wok and stir-fry the onion and carrot for 3 minutes.
+    - Push aside, scramble the eggs, then mix in.
+    - Add the rice and peas and stir-fry 4 minutes over high heat.
+    - Season with soy sauce and top with green onion.
+
+- slug: garlic-mushroom-toast
+  title: Garlic Mushroom Toast
+  meal: lunch
+  cuisine: British
+  servings: 2
+  prep: 5
+  cook: 10
+  description: Buttery garlic mushrooms piled on thick toast.
+  ingredients:
+    - 2 slice bread
+    - 250 g mushroom | sliced
+    - 2 clove garlic | minced
+    - 20 g butter
+    - 3 g parsley | garnish
+    - 1 pinch salt
+    - 1 pinch black_pepper
+  steps:
+    - Melt the butter and fry the mushrooms over high heat until golden, about 6 minutes.
+    - Add the garlic and cook 1 minute, then season.
+    - Toast the bread and spoon the mushrooms on top.
+    - Scatter with parsley.
+
+- slug: apple-cheddar-sandwich
+  title: Apple Cheddar Melt
+  meal: lunch
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 8
+  description: Sharp cheddar and thin apple slices toasted until melty.
+  ingredients:
+    - 2 slice bread
+    - 0.5 piece apple | thinly sliced
+    - 50 g cheese | cheddar, sliced
+    - 1 tsp mustard | supporting
+    - 10 g butter
+  steps:
+    - Spread mustard on the inside of the bread.
+    - Layer the cheese and apple between the slices.
+    - Butter the outside and toast in a pan 3 minutes per side.
+
+- slug: blt
+  title: BLT Sandwich
+  meal: lunch
+  cuisine: American
+  servings: 1
+  prep: 5
+  cook: 8
+  description: Bacon, lettuce and tomato on toasted bread.
+  ingredients:
+    - 2 slice bread
+    - 3 slice bacon
+    - 30 g leafy_greens | lettuce
+    - 1 piece tomato | sliced
+    - 15 g mayonnaise
+  steps:
+    - Fry the bacon until crisp.
+    - Toast the bread and spread with mayonnaise.
+    - Layer lettuce, tomato and bacon between the slices.
+
+- slug: pasta-salad
+  title: Mediterranean Pasta Salad
+  meal: lunch
+  cuisine: Mediterranean
+  servings: 4
+  prep: 15
+  cook: 10
+  description: Chilled pasta tossed with crunchy vegetables, feta and oregano dressing.
+  ingredients:
+    - 250 g pasta
+    - 2 piece tomato | diced
+    - 0.5 piece cucumber | diced
+    - 1 piece bell_pepper | diced
+    - 0.5 piece onion | red onion, finely diced
+    - 100 g feta | crumbled
+    - 4 tbsp olive_oil
+    - 2 tbsp vinegar
+    - 1 tsp dried_oregano
+    - 1 pinch salt
+  steps:
+    - Cook the pasta in salted water, drain and rinse under cold water.
+    - Whisk the oil, vinegar, oregano and salt.
+    - Toss the pasta with the vegetables, feta and dressing.
+    - Chill 15 minutes before serving.
+
+- slug: lentil-soup
+  title: Lentil Soup
+  meal: lunch
+  cuisine: Mediterranean
+  servings: 4
+  prep: 10
+  cook: 30
+  description: Hearty red lentil soup with carrot, cumin and lemon.
+  ingredients:
+    - 200 g lentils | rinsed
+    - 2 piece carrot | diced
+    - 1 piece onion | diced
+    - 2 clove garlic | minced
+    - 400 g canned_tomatoes
+    - 1 tsp cumin
+    - 2 tbsp olive_oil
+    - 0.5 piece lemon | garnish | wedges
+    - 1 pinch salt
+  steps:
+    - Cook the onion, carrot and garlic in the oil for 6 minutes.
+    - Stir in the cumin, then add the lentils, tomatoes and 1 litre of water.
+    - Simmer 25 minutes until the lentils break down.
+    - Season and serve with lemon wedges.
+
+- slug: minestrone
+  title: Minestrone
+  meal: lunch
+  cuisine: Italian
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Italian vegetable soup with beans, pasta and greens.
+  ingredients:
+    - 2 piece carrot | diced
+    - 1 piece onion | diced
+    - 1 piece potato | diced
+    - 2 clove garlic
+    - 400 g canned_tomatoes
+    - 240 g canned_black_beans | supporting | drained
+    - 80 g pasta | small shapes
+    - 60 g leafy_greens | supporting
+    - 2 tbsp olive_oil
+    - 20 g parmesan | garnish
+    - 1 pinch salt
+  steps:
+    - Cook the onion, carrot and garlic in the oil for 6 minutes.
+    - Add the potato, tomatoes and 1 litre of water and simmer 15 minutes.
+    - Add the beans and pasta and cook 10 minutes.
+    - Stir in the greens until wilted, then season and top with parmesan.
+
+- slug: cauliflower-soup
+  title: Roasted Cauliflower Soup
+  meal: lunch
+  cuisine: European
+  servings: 4
+  prep: 10
+  cook: 35
+  description: Roasted cauliflower blended with onion, garlic and milk.
+  ingredients:
+    - 600 g cauliflower | florets
+    - 1 piece onion | chopped
+    - 3 clove garlic
+    - 300 ml milk
+    - 20 g butter
+    - 2 tbsp olive_oil
+    - 30 g cheese | garnish | grated
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 220°C (425°F). Roast the cauliflower and garlic with the oil for 25 minutes.
+    - Soften the onion in the butter in a pot.
+    - Add the roasted cauliflower, garlic, milk and 400 ml of water and simmer 10 minutes.
+    - Blend until smooth, season and top with cheese.
+
+- slug: chicken-noodle-soup
+  title: Chicken Noodle Soup
+  meal: lunch
+  cuisine: American
+  servings: 4
+  prep: 10
+  cook: 30
+  description: Comforting broth with chicken, carrot and egg noodles.
+  ingredients:
+    - 300 g chicken
+    - 120 g egg_noodles
+    - 2 piece carrot | sliced
+    - 1 piece onion | diced
+    - 1500 ml chicken_broth
+    - 1 tbsp cooking_oil
+    - 5 g parsley | garnish
+    - 1 pinch salt
+  steps:
+    - Cook the onion and carrot in the oil for 5 minutes.
+    - Add the broth and chicken and simmer 15 minutes.
+    - Remove the chicken, shred it, and return it to the pot.
+    - Add the noodles and cook 6 minutes. Season and add parsley.
+
+- slug: loaded-baked-potato
+  title: Broccoli Cheddar Baked Potato
+  meal: lunch
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 60
+  description: Fluffy baked potatoes stuffed with broccoli, cheddar and sour cream.
+  ingredients:
+    - 2 piece potato | scrubbed
+    - 150 g broccoli | small florets
+    - 60 g cheese | grated
+    - 60 g sour_cream
+    - 15 g butter
+    - 1 piece green_onion | garnish
+    - 1 pinch salt
+  steps:
+    - Bake the potatoes at 200°C (400°F) for 50 to 60 minutes until soft.
+    - Steam the broccoli for 4 minutes.
+    - Split the potatoes, fluff the insides with butter and salt.
+    - Top with broccoli, cheese and sour cream, then green onion.
+
+- slug: spinach-feta-wrap
+  title: Spinach Feta Wrap
+  meal: lunch
+  cuisine: Greek
+  servings: 2
+  prep: 10
+  cook: 0
+  description: Fresh greens, tomato, cucumber and feta with a garlicky yogurt sauce.
+  ingredients:
+    - 2 piece tortilla
+    - 60 g leafy_greens
+    - 1 piece tomato | sliced
+    - 0.33 piece cucumber | sliced
+    - 60 g feta | crumbled
+    - 80 g yogurt
+    - 1 clove garlic | supporting | grated
+    - 1 pinch salt
+  steps:
+    - Mix the yogurt with the garlic and salt.
+    - Spread the sauce on the tortillas.
+    - Layer greens, tomato, cucumber and feta, then roll up.
+
+- slug: quinoa-salad
+  title: Lemon Quinoa Salad
+  meal: lunch
+  cuisine: Mediterranean
+  servings: 4
+  prep: 15
+  cook: 15
+  description: Fluffy quinoa with chickpeas, vegetables and a lemon dressing.
+  ingredients:
+    - 180 g quinoa | rinsed
+    - 240 g canned_chickpeas | drained
+    - 0.5 piece cucumber | diced
+    - 2 piece tomato | diced
+    - 1 piece bell_pepper | diced
+    - 1 piece lemon | juiced
+    - 3 tbsp olive_oil
+    - 10 g parsley | chopped
+    - 1 pinch salt
+  steps:
+    - Simmer the quinoa in 400 ml water for 12 minutes, then cool.
+    - Whisk the lemon juice, olive oil and salt.
+    - Toss the quinoa with the chickpeas, vegetables, parsley and dressing.
+
+- slug: cabbage-soup
+  title: Cabbage Vegetable Soup
+  meal: lunch
+  cuisine: Eastern European
+  servings: 4
+  prep: 15
+  cook: 30
+  description: Light, warming soup of cabbage, carrot, potato and tomato.
+  ingredients:
+    - 400 g cabbage | shredded
+    - 2 piece carrot | diced
+    - 1 piece onion | diced
+    - 1 piece potato | diced
+    - 400 g canned_tomatoes
+    - 2 clove garlic
+    - 2 tbsp olive_oil
+    - 1 tsp paprika
+    - 1 pinch salt
+  steps:
+    - Cook the onion, carrot and garlic in the oil for 5 minutes.
+    - Add the cabbage, potato, tomatoes, paprika and 1.2 litres of water.
+    - Simmer 25 minutes until the vegetables are tender.
+    - Season with salt.
+
+- slug: panzanella
+  title: Panzanella
+  meal: lunch
+  cuisine: Italian
+  servings: 2
+  prep: 15
+  cook: 8
+  description: Tuscan bread salad with juicy tomatoes, cucumber and basil.
+  ingredients:
+    - 3 slice bread | cubed
+    - 3 piece tomato | chopped
+    - 0.5 piece cucumber | chopped
+    - 0.25 piece onion | red onion, thinly sliced
+    - 5 g basil
+    - 3 tbsp olive_oil
+    - 1 tbsp vinegar
+    - 1 pinch salt
+  steps:
+    - Toast the bread cubes in 1 tablespoon of oil until crisp.
+    - Toss the tomatoes with salt and leave 5 minutes to release juice.
+    - Add the bread, cucumber, onion, basil, remaining oil and vinegar.
+    - Rest 10 minutes so the bread soaks up the juices.
+
+- slug: chicken-rice-bowl
+  title: Ginger Chicken Rice Bowl
+  meal: lunch
+  cuisine: Asian
+  servings: 2
+  prep: 10
+  cook: 20
+  description: Garlic-ginger chicken with broccoli and carrot over rice.
+  ingredients:
+    - 250 g chicken | diced
+    - 150 g rice
+    - 150 g broccoli | florets
+    - 1 piece carrot | sliced
+    - 2 clove garlic | minced
+    - 10 g ginger | grated
+    - 3 tbsp soy_sauce
+    - 1 tbsp cooking_oil
+  steps:
+    - Cook the rice.
+    - Stir-fry the chicken in the oil for 5 minutes.
+    - Add the garlic, ginger, broccoli and carrot with a splash of water and cook 4 minutes.
+    - Add the soy sauce and serve over the rice.
+
+- slug: grilled-veggie-sandwich
+  title: Grilled Vegetable Sandwich
+  meal: lunch
+  cuisine: Mediterranean
+  servings: 2
+  prep: 10
+  cook: 15
+  description: Charred eggplant and peppers with melted cheese and garlic oil.
+  ingredients:
+    - 4 slice bread
+    - 0.5 piece eggplant | sliced in rounds
+    - 1 piece bell_pepper | cut in strips
+    - 60 g cheese | mozzarella, sliced
+    - 1 clove garlic | grated
+    - 3 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Mix the oil and garlic and brush over the eggplant and pepper.
+    - Grill or pan-fry the vegetables 3 to 4 minutes per side and season.
+    - Layer on bread with the cheese and toast until melted.
+
+- slug: orange-spinach-salad
+  title: Orange Spinach Salad
+  meal: lunch
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 0
+  description: Baby spinach with juicy orange segments, feta and toasted walnuts.
+  ingredients:
+    - 100 g leafy_greens | baby spinach
+    - 2 piece orange | segmented
+    - 40 g feta | crumbled
+    - 30 g walnuts | toasted
+    - 0.25 piece onion | supporting | red onion, thinly sliced
+    - 2 tbsp olive_oil
+    - 1 tbsp vinegar
+    - 1 tsp honey
+  steps:
+    - Segment the oranges over a bowl to catch the juice.
+    - Whisk the juice with the oil, vinegar and honey.
+    - Toss the spinach, onion and dressing, then top with orange, feta and walnuts.
+
+- slug: strawberry-spinach-salad
+  title: Strawberry Spinach Salad
+  meal: lunch
+  cuisine: American
+  servings: 2
+  prep: 10
+  cook: 0
+  description: Spinach, sliced strawberries, cucumber and feta with a sweet vinaigrette.
+  ingredients:
+    - 100 g leafy_greens | baby spinach
+    - 150 g strawberry | sliced
+    - 0.25 piece cucumber | supporting | sliced
+    - 40 g feta | crumbled
+    - 20 g walnuts | supporting
+    - 2 tbsp olive_oil
+    - 1 tbsp vinegar
+    - 1 tsp honey
+  steps:
+    - Whisk the oil, vinegar and honey.
+    - Toss the spinach and cucumber with half the dressing.
+    - Top with strawberries, feta and walnuts and drizzle with the rest.
+
+- slug: eggplant-chickpea-bowl
+  title: Roasted Eggplant Chickpea Bowl
+  meal: lunch
+  cuisine: Middle Eastern
+  servings: 2
+  prep: 10
+  cook: 30
+  description: Cumin-roasted eggplant and chickpeas over quinoa with yogurt.
+  ingredients:
+    - 1 piece eggplant | cubed
+    - 240 g canned_chickpeas | drained
+    - 120 g quinoa
+    - 100 g yogurt
+    - 1 clove garlic | grated
+    - 0.5 piece lemon | juiced
+    - 1 tsp cumin
+    - 3 tbsp olive_oil
+    - 1 pinch salt
+  steps:
+    - Heat the oven to 220°C (425°F). Toss the eggplant and chickpeas with oil, cumin and salt.
+    - Roast 25 minutes, stirring once.
+    - Cook the quinoa in 250 ml water for 12 minutes.
+    - Mix the yogurt with garlic and lemon juice and spoon over the bowls.
+
+- slug: curried-chicken-apple-salad
+  title: Curried Chicken Salad with Apple
+  meal: lunch
+  cuisine: British
+  servings: 2
+  prep: 15
+  cook: 12
+  description: Tender chicken in a light curried yogurt dressing with crisp apple.
+  ingredients:
+    - 250 g chicken
+    - 1 piece apple | diced
+    - 100 g yogurt
+    - 1 tsp curry_powder
+    - 0.25 piece onion | supporting | finely diced
+    - 60 g leafy_greens | supporting | to serve
+    - 0.25 piece lemon | supporting | juiced
+    - 1 pinch salt
+  steps:
+    - Poach the chicken in simmering salted water for 12 minutes, then cool and dice.
+    - Stir the yogurt with the curry powder, lemon juice and salt.
+    - Fold in the chicken, apple and onion.
+    - Serve on the greens.
+
+- slug: cauliflower-quinoa-salad
+  title: Roasted Cauliflower Quinoa Salad
+  meal: lunch
+  cuisine: Mediterranean
+  servings: 3
+  prep: 10
+  cook: 25
+  description: Spiced roasted cauliflower with quinoa, greens and lemon.
+  ingredients:
+    - 500 g cauliflower | florets
+    - 150 g quinoa
+    - 60 g leafy_greens
+    - 0.5 piece lemon | juiced
+    - 1 tsp paprika
+    - 3 tbsp olive_oil
+    - 40 g feta | supporting | crumbled
+    - 1 pinch salt
+  steps:
+    - Roast the cauliflower with 2 tablespoons of oil, paprika and salt at 220°C (425°F) for 25 minutes.
+    - Cook the quinoa in 320 ml water for 12 minutes.
+    - Toss the quinoa, greens and cauliflower with the lemon and remaining oil.
+    - Top with feta.
